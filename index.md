@@ -7,18 +7,19 @@ Aqui eu demonstro como transformo dados brutos em informações compreensíveis 
 
 ## 💡 Por que sua empresa precisa de Business Intelligence & Automação?
 Um dos maiores desafios das organizações é não ter informações atualizadas e de fácil visualização para tomar decisões ágeis. Minha missão é eliminar o trabalho manual e gerar economias, aumento de receita e eficiência operacional através de soluções integradas.
-Outro desafio de organizações é ser dependente de fluxos e processos manuais, passíveis de falha humana. Meu objetivo é automatizar os processos críticos, passíveis de automatização, da empresa, para que toda a cascata fique interligada, fechando um ciclo de: 
-Ação -> fluxo automático -> preenchimento em base de dados -> exposição em relatório de Power BI.
+Outro desafio de organizações é ser dependente de fluxos e processos manuais, passíveis de falha humana. 
+Meu objetivo é automatizar os processos críticos, passíveis de automatização, da empresa. Desta forma, toda a cascata de ações fica interligada, fechando um ciclo de: 
+## Ação -> fluxo automático -> preenchimento em base de dados -> exposição em relatório de Power BI.
 
 ### 🛠️ Minhas Especialidades (O que eu faço):
 * **Consultoria e Requisitos:** Entendimento do modelo de negócios e mapeamento de dores.
+* **Automação:** A partir das dores apresentadas, podemos estrategizar um plano de ação envolvendo, se possível, uma automação de fluxos com o Power Automate e/ou ferramenta parecida. Neste site de portfólio, tenho alguns exemplos de trabalhados já realizados por mim, bem como projetos que faço a manutenção pós-implementação.
 * **ETL (Extract, Transform, Load):** Obtenção, centralização, limpeza e padronização de bases no Excel e Power Query.
 * **Modelagem e Relatórios:** Desenvolvimento de dashboards interativos e performáticos no Power BI.
-* **Compartilhamento e Automação:** Distribuição segura de relatórios e automação de fluxos com o Power Automate.
 
 ---
 
-## 🚀 Meus Projetos (Clique nos links para ver o case completo)
+## 🚀 Meus Projetos de Destaque
 
 ### 📊 Project 1: Painel de Performance Comercial (Power BI)
 * **O Problema:** Demora de 5 dias úteis para consolidar relatórios de vendas manuais em planilhas aceitando erros e duplicidades.

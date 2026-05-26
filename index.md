@@ -3,19 +3,82 @@
 # Para que serve este site?
 Aqui eu demonstro como transformo dados brutos em informações compreensíveis e significativas, e fluxos repetitivos e manuais em fluxos automáticos que orientam a tomada de decisão inteligente.
 
+Este site reúne projetos desenvolvidos com foco em:
+
+- Automação operacional;
+- Business Intelligence (BI);
+- Integração e automatização de processos;
+- Eficiência operacional;
+- IA aplicada a rotinas corporativas;
+
+Os projetos apresentados envolvem ferramentas como Power BI, Power Automate, SharePoint, Excel, Teams e Power Query, aplicadas em fluxos corporativos reais.
+
 ---
 
-## 💡 Por que sua empresa precisa de Business Intelligence & Automação?
-Um dos maiores desafios das organizações é não ter informações atualizadas e de fácil visualização para tomar decisões ágeis. Minha missão é eliminar o trabalho manual e gerar economias, aumento de receita e eficiência operacional através de soluções integradas.
-Outro desafio de organizações é ser dependente de fluxos e processos manuais, passíveis de falha humana. 
-Meu objetivo é automatizar os processos críticos, passíveis de automatização, da empresa. Desta forma, toda a cascata de ações fica interligada, fechando um ciclo de: 
-## Ação -> fluxo automático -> preenchimento em base de dados -> exposição em relatório de Power BI.
+# O Problema que eu resolvo
 
-### 🛠️ Minhas Especialidades (O que eu faço):
-* **Consultoria e Requisitos:** Entendimento do modelo de negócios e mapeamento de dores.
-* **Automação:** A partir das dores apresentadas, podemos estrategizar um plano de ação envolvendo, se possível, uma automação de fluxos com o Power Automate e/ou ferramenta parecida. Neste site de portfólio, tenho alguns exemplos de trabalhados já realizados por mim, bem como projetos que faço a manutenção pós-implementação.
-* **ETL (Extract, Transform, Load):** Obtenção, centralização, limpeza e padronização de bases no Excel e Power Query.
-* **Modelagem e Relatórios:** Desenvolvimento de dashboards interativos e performáticos no Power BI.
+Muitas empresas ainda dependem de:
+
+- controles manuais;
+- consolidação operacional em planilhas;
+- comunicação descentralizada;
+- retrabalho;
+- falta de rastreabilidade;
+- processos sujeitos a falhas humanas.
+
+Meu objetivo é transformar essas operações em fluxos estruturados, automatizados e orientados por dados.
+
+# Como funciona a estrutura das soluções
+
+## Fluxo operacional integrado
+
+Ação operacional  
+⬇  
+Automação e validações  
+⬇  
+Atualização automática de base de dados  
+⬇  
+Governança e rastreabilidade  
+⬇  
+Dashboards e indicadores em Power BI
+
+---
+
+# Principais Especialidades
+
+## ⚙️ Automação de Processos
+Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
+
+- Microsoft Forms;
+- SharePoint;
+- Teams;
+- Outlook;
+- Excel Online;
+- Aprovações manuais ou automáticas;
+- Alertas operacionais;
+
+Observação: só porque não consta como "minha especialidade", não significa que não tem como ser criado! Podemos conversar sobre qualquer implementação que tiver interesse, basta mandar uma mensagem.
+
+
+## 📊 Business Intelligence & Analytics
+Construção de dashboards e estruturas analíticas com foco em:
+
+- KPIs operacionais (Indicador-Chave de Desempenho, do inglês: Key Performance Indicator)
+- Indicadores estratégicos
+- Modelagem dimensional
+- ETL com Power Query
+- Consolidação de múltiplas fontes
+- Relatórios executivos
+
+
+## 🧠 IA Aplicada a Processos
+Aplicação de inteligência artificial para:
+
+- ganho operacional;
+- organização de informações;
+- automação de atividades repetitivas;
+- suporte à tomada de decisão.
+
 
 ---
 

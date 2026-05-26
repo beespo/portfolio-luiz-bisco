@@ -46,7 +46,7 @@ Dashboards e indicadores em Power BI
 
 # Principais Especialidades
 
-## ⚙️ Automação de Processos
+## Automação de Processos
 Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
 
 - Microsoft Forms;
@@ -57,10 +57,10 @@ Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
 - Aprovações manuais ou automáticas;
 - Alertas operacionais;
 
-Observação: só porque não consta como "minha especialidade", não significa que não tem como ser criado! Podemos conversar sobre qualquer implementação que tiver interesse, basta mandar uma mensagem.
+**Observação: só porque não consta como "minha especialidade", não significa que não tem como ser criado! Podemos conversar sobre qualquer implementação que tiver interesse, basta entrar em contato!**
 
 
-## 📊 Business Intelligence & Analytics
+## Business Intelligence (BI) & Analytics
 Construção de dashboards e estruturas analíticas com foco em:
 
 - KPIs operacionais (Indicador-Chave de Desempenho, do inglês: Key Performance Indicator)
@@ -71,7 +71,7 @@ Construção de dashboards e estruturas analíticas com foco em:
 - Relatórios executivos
 
 
-## 🧠 IA Aplicada a Processos
+## IA Aplicada a Processos
 Aplicação de inteligência artificial para:
 
 - ganho operacional;
@@ -82,9 +82,9 @@ Aplicação de inteligência artificial para:
 
 ---
 
-## 🚀 Meus Projetos de Destaque
+# Meus Projetos de Destaque - Power BI 📊
 
-### 📊 Project 1: Painel de Performance Comercial (Power BI)
+### Projeto 1: Painel de Performance Comercial (Power BI)
 * **O Problema:** Demora de 5 dias úteis para consolidar relatórios de vendas manuais em planilhas aceitando erros e duplicidades.
 * **A Solução:** Painel interativo de Margem Bruta com simulador de variáveis (*What-If*) baseado no Lucro Operacional.
 * **Stack:** Power BI, Power Query, Star Schema.
@@ -96,16 +96,35 @@ Aplicação de inteligência artificial para:
 * **Stack:** Power Automate, Excel Online, Teams.
 * **[👉 Ver Case Técnico Detalhado](case-automate.md)**
 
+
+# Meus Projetos de Destaque - Power Automate (fluxos automatizados)⚙️
+
+
+# Tecnologias
+
+## Principais ferramentas utilizadas (quet tenho certa experiência)
+
+- Power BI
+- Power Automate e Power Platform (integrado ao AI builder, de modelos e agentes de IAs)
+- Excel
+- Power Query
+- I.A. (LLMs generativos e agentes de inteligência artificial)
+- SharePoint
+- Microsoft Teams
+- Python
+- GitHub
+
 ---
 
-## 👤 Sobre Mim
-Sou um profissional focado na melhoria contínua dos negócios. Minha bagagem me permite trabalhar próximo às lideranças, fornecendo insights técnicos que contribuem diretamente para a estratégia da empresa. Tenho domínio em estruturação de bases no Excel, modelagem de dados no Power BI e automações de processos com Power Automate.
+## Sobre Mim
+Profissional focado em automação corporativa, integração de processos, análise de dados e gestão de projetos.
+
+Minha experiência envolve gestão de projetos, desenvolvimento de fluxos automatizados, estruturação de bases de dados e Excel, construção de dashboards e melhoria contínua de operações corporativas.
 
 ---
 
-## 📩 Vamos conversar?
+## Contato
 Se você precisa otimizar os processos ou os relatórios da sua empresa, entre em contato:
 
-* **LinkedIn:** [linkedin.com/in/seu-perfil](#)
+* **LinkedIn:** [https://www.linkedin.com/in/luizrvbisco/](#)
 * **E-mail:** [seu-email@provedor.com]
-* **WhatsApp:** [Seu Telefone](#)

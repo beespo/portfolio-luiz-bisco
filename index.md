@@ -98,6 +98,20 @@ Aplicação de inteligência artificial para:
 
 
 # Meus Projetos de Destaque - Power Automate (fluxos automatizados)⚙️
+### Projeto 1: Registro de postergações de projetos
+* **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A postergação sem registro atrapalhava a identificação da causa-raiz das alterações de data, sem uma plano de ação eficiente. 
+* **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário para preenchimento do analista, exigindo inserção de justificativa da mudança. As informações são preenchidas em uma base de postergações, que alimenta um relatório de Power BI.
+* **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists, Teams, Power BI.
+* **[👉 Ver Case Técnico Detalhado](case-automate.md)**
+
+
+### Projeto 2: Criação automática de ID de projetos.
+* **O Problema:** Projetos distintos podem ser realizados para um mesmo produto e, devido à alta complexidade dos projetos farmacêuticos, muitos controles (por planilhas Excel, Microsoft Lists, entre outros) são utilizados. Sem uma codificação eficiente, há perda de informação e falta de exposição das etapas do projeto, por dificultar as conexões entre bases de dados.
+* **A Solução:** Assim que um projeto é criado no Microsoft Lists, o fluxo compreende a criação, e gera automaticamente um código único, baseado no ano e na última sequência utilizada anteriormente. Desta forma, nenhum projeto terá o código de outro. Após a criação, as áreas técnicas são notificadas do novo item.
+* **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists.
+* **[👉 Ver Case Técnico Detalhado](case-automate.md)**
+
+
 
 
 # Tecnologias

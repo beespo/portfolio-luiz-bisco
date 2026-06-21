@@ -84,17 +84,38 @@ Aplicação de inteligência artificial para:
 
 # Meus Projetos de Destaque - Power BI 📊
 
-### Projeto 1: Painel de Performance Comercial (Power BI)
-* **O Problema:** Demora de 5 dias úteis para consolidar relatórios de vendas manuais em planilhas aceitando erros e duplicidades.
-* **A Solução:** Painel interativo de Margem Bruta com simulador de variáveis (*What-If*) baseado no Lucro Operacional.
-* **Stack:** Power BI, Power Query, Star Schema.
-* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)** | **[🔗 Interagir com o Dashboard (#)]**
+### Painel 1: Dashboard Executivo de Projetos Prioritários (Power BI)
+* **O Problema:** Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.
+* **A Solução:** Desenvolvimento de dashboard executivo para monitoramento de indicadores estratégicos, cronogramas, mudanças, postergações e status dos projetos prioritários, consolidando dados provenientes de múltiplas fontes e proporcionando maior visibilidade para lideranças e stakeholders.
+* **Stack:** Power BI, Power Query, DAX, SharePoint, Modelagem Dimensional (Star Schema).
+* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
 
-### ⚙️ Project 2: Automação de Carga de Metas (Power Automate)
-* **O Problema:** Operadores gastavam 4 horas semanais baixando relatórios de 15 filiais por e-mail para consolidar manualmente.
-* **A Solução:** Fluxo em nuvem que extrai anexos automaticamente, valida o layout e atualiza a base mestre, disparando alertas de erro.
-* **Stack:** Power Automate, Excel Online, Teams.
-* **[👉 Ver Case Técnico Detalhado](case-automate.md)**
+---
+
+### Painel 2: Painel de Solicitações, Postergações e Finalização de Projetos (Power BI & Power Automate)
+* **O Problema:** Ausência de rastreabilidade, padronização e visibilidade sobre o ciclo de vida dos projetos, dificultando o acompanhamento de solicitações, postergações, responsáveis e status das entregas.
+* **A Solução:** Desenvolvimento de um fluxo automatizado para recebimento, direcionamento e acompanhamento de projetos, integrando Microsoft Forms, Microsoft Lists e Power Automate. O processo passou a registrar solicitações, postergações, finalizações e responsáveis, consolidando todas as informações em dashboards Power BI para acompanhamento operacional e gerencial.
+* **Stack:** Power Automate, Microsoft Lists, Microsoft Forms, Power BI, Power Query, Modelagem Dimensional (Star Schema).
+* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
+
+---
+
+### Painel 3: Dashboard de Cronogramas e Regularizações (Power BI)
+* **O Problema:** Dificuldade no acompanhamento centralizado dos cronogramas regulatórios, prazos e entregas de projetos, aumentando o risco de desvios e atrasos.
+* **A Solução:** Desenvolvimento de dashboard para monitoramento de cronogramas, etapas, responsáveis e status dos projetos, permitindo análise de desvios, acompanhamento de entregas e identificação antecipada de riscos relacionados aos prazos.
+* **Stack:** Power BI, Power Query, DAX, SharePoint, Modelagem Dimensional (Star Schema).
+* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
+
+---
+
+### Painel 4: Dashboard de Produtividade e Gestão de Portfólio (Power BI)
+* **O Problema:** Falta de visibilidade consolidada sobre o andamento das atividades, produtividade das equipes e evolução dos projetos ao longo das diferentes etapas do processo.
+* **A Solução:** Desenvolvimento de dashboard para acompanhamento da produtividade operacional, status das etapas, responsáveis, prazos planejados e realizados, permitindo identificar gargalos, atrasos e oportunidades de melhoria no fluxo de trabalho.
+* **Stack:** Power BI, Power Query, DAX, SharePoint, Excel, Modelagem Dimensional (Star Schema).
+* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
+
+---
+
 
 
 # Meus Projetos de Destaque - Power Automate (fluxos automatizados)⚙️

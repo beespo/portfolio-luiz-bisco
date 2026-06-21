@@ -123,6 +123,7 @@ Aplicação de Inteligência Artificial para:
 ### Projeto 1: Registro de postergações de projetos
 * **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A postergação sem registro atrapalhava a identificação da causa-raiz das alterações de data, sem uma plano de ação eficiente. 
 * **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário rápido e personalizado para preenchimento do gestor do projeto, exigindo inserção de justificativa da mudança. As informações são preenchidas em uma base de postergações, que alimenta um relatório de Power BI.
+* **Resultado obtido:** Ganho em tempo de 1 dia (23,7 horas) dentro de um mês, para uma equipe de 8 pessoas.
 * **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists, Microsoft Teams, Power BI.
 * **[👉 Ver Case Técnico Detalhado](case-automate.md)**
 
@@ -133,6 +134,19 @@ Aplicação de Inteligência Artificial para:
 * **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists.
 * **[👉 Ver Case Técnico Detalhado](case-automate.md)**
 
+
+# Resultados Obtidos
+
+Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram para:
+
+- redução de atividades manuais;
+- redução de tempo operacional;
+- otimização de carregamento e diminuição de erros de atualização de relatórios de Power BI;
+- aumento da rastreabilidade dos processos;
+- padronização de fluxos corporativos;
+- consolidação de informações em fonte única;
+- melhoria da tomada de decisão;
+- aumento da eficiência operacional.
 
 
 
@@ -164,9 +178,9 @@ Aplicação de Inteligência Artificial para:
 ---
 
 ## Sobre Mim
-Profissional focado em automação corporativa, integração de processos, análise de dados e gestão de projetos.
+Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico.
 
-Minha experiência envolve gestão de projetos, desenvolvimento de fluxos automatizados, estruturação de bases de dados e Excel, construção de dashboards e melhoria contínua de operações corporativas.
+Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.
 
 ---
 

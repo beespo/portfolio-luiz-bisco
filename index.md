@@ -1,7 +1,12 @@
-# Bem-vindo(a) ao meu Portfólio!
+# Luiz Bisco
+Automação • Dados • Business Intelligence • IA
+
+Power BI | Power Automate | SharePoint | Python | IA Generativa
+## Gestão de projetos, Automação de Processos, Business Intelligence e IA Aplicada
+
 
 # Para que serve este site?
-Aqui eu demonstro como transformo dados brutos em informações compreensíveis e significativas, e fluxos repetitivos e manuais em fluxos automáticos que orientam a tomada de decisão inteligente.
+Aqui apresento projetos desenvolvidos para transformar processos manuais em operações orientadas por dados, automação e inteligência de negócio.
 
 Este site reúne projetos desenvolvidos com foco em:
 
@@ -187,5 +192,5 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 ## Contato
 Se você precisa otimizar os processos ou os relatórios da sua empresa, entre em contato:
 
-* **LinkedIn:** [https://www.linkedin.com/in/luizrvbisco/](#)
-* **E-mail:** [seu-email@provedor.com]
+* **LinkedIn:**[LinkedIn](https://www.linkedin.com/in/luizrvbisco/)
+* **E-mail:** [luizrvbisco@gmail.com]

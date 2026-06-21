@@ -57,8 +57,6 @@ Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
 - Aprovações manuais ou automáticas;
 - Alertas operacionais;
 
-**Observação: só porque não consta como "minha especialidade", não significa que não tem como ser criado! Podemos conversar sobre qualquer implementação que tiver interesse, basta entrar em contato!**
-
 
 ## Business Intelligence (BI) & Analytics
 Construção de dashboards e estruturas analíticas com foco em:
@@ -72,12 +70,15 @@ Construção de dashboards e estruturas analíticas com foco em:
 
 
 ## IA Aplicada a Processos
-Aplicação de inteligência artificial para:
 
-- ganho operacional;
-- organização de informações;
-- automação de atividades repetitivas;
-- suporte à tomada de decisão.
+Aplicação de Inteligência Artificial para:
+
+- análise e organização de informações;
+- apoio à tomada de decisão;
+- geração e análise de documentação;
+- automação de atividades repetitivas e cotidianas;
+- aumento de produtividade em fluxos corporativos;
+- integração com agentes e ferramentas de IA.
 
 
 ---
@@ -139,14 +140,25 @@ Aplicação de inteligência artificial para:
 
 ## Principais ferramentas utilizadas
 
+### Dados & Analytics
 - Power BI
-- Power Automate e Power Platform (integrado ao AI builder, de modelos e agentes de IAs)
-- Excel
 - Power Query
-- I.A. (LLMs generativos e agentes de inteligência artificial)
+- Excel
+- SQL
+- Python
+
+### Automação
+- Power Automate
+- Microsoft Lists
 - SharePoint
 - Microsoft Teams
-- Python
+
+### Inteligência Artificial
+- LLMs Generativos
+- Agentes de IA
+- AI Builder (Power Platform)
+
+### Desenvolvimento e portfólio
 - GitHub
 
 ---

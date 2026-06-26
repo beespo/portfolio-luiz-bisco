@@ -5,6 +5,45 @@
 Power BI • Power Automate • SharePoint • Python • IA Generativa (Gen-AI)
 
 
+## Confidencialidade e Anonimização dos Dados
+
+Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.
+
+As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.
+
+Os dados visuais foram tratados por meio de técnicas de anonimização e substituição de informações sensíveis, preservando exclusivamente a arquitetura da solução, a lógica de negócio, a modelagem dos dados, os processos automatizados e os indicadores utilizados para tomada de decisão.
+
+O objetivo deste material é demonstrar competências técnicas em Business Intelligence, Automação de Processos, Integração de Dados e Inteligência Artificial, sem comprometer informações proprietárias.
+
+---
+
+# Índice
+
+* [Para que serve este site?](#para-que-serve-este-site)
+* [O Problema que eu resolvo](#o-problema-que-eu-resolvo)
+* [Como funciona a estrutura das soluções](#como-funciona-a-estrutura-das-solucoes)
+* [Principais Especialidades](#principais-especialidades)
+
+### Business Intelligence
+
+* [Dashboard Executivo de Projetos Prioritários](#painel-1-dashboard-executivo-de-projetos-prioritarios-power-bi)
+* [Painel de Solicitações e Postergações](#painel-2-painel-de-solicitacoes-postergacoes-e-finalizacao-de-projetos-power-bi--power-automate)
+* [Dashboard de Cronogramas](#painel-3-dashboard-de-cronogramas-e-regularizacoes-power-bi)
+* [Dashboard de Produtividade](#painel-4-dashboard-de-produtividade-e-gestao-de-portfolio-power-bi)
+
+### Automação
+
+* [Registro de Postergações](#projeto-1-registro-de-postergacoes-de-projetos)
+* [Criação Automática de Código de Projetos](#projeto-2-criacao-automatica-de-codigo-de-projetos)
+
+### Outros
+
+* [Resultados Obtidos](#resultados-obtidos)
+* [Tecnologias](#tecnologias)
+* [Sobre Mim](#sobre-mim)
+* [Contato](#contato)
+
+
 # Para que serve este site?
 Aqui apresento projetos desenvolvidos para transformar processos manuais em operações orientadas por dados, automação e inteligência de negócio.
 

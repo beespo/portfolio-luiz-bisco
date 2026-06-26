@@ -1,8 +1,8 @@
 # Luiz Bisco
-Automação • Dados • Business Intelligence • IA
 
-Power BI | Power Automate | SharePoint | Python | IA Generativa
-## Gestão de projetos, Automação de Processos, Business Intelligence e IA Aplicada
+## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
+
+Power BI • Power Automate • SharePoint • Python • IA Generativa (Gen-AI)
 
 
 # Para que serve este site?
@@ -11,7 +11,7 @@ Aqui apresento projetos desenvolvidos para transformar processos manuais em oper
 Este site reúne projetos desenvolvidos com foco em:
 
 - Automação operacional;
-- Business Intelligence (BI);
+- Business Intelligence;
 - Integração e automatização de processos;
 - Eficiência operacional;
 - IA aplicada a rotinas corporativas;
@@ -128,7 +128,7 @@ Aplicação de Inteligência Artificial para:
 ### Projeto 1: Registro de postergações de projetos
 * **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A postergação sem registro atrapalhava a identificação da causa-raiz das alterações de data, sem uma plano de ação eficiente. 
 * **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário rápido e personalizado para preenchimento do gestor do projeto, exigindo inserção de justificativa da mudança. As informações são preenchidas em uma base de postergações, que alimenta um relatório de Power BI.
-* **Resultado obtido:** Ganho em tempo de 1 dia (23,7 horas) dentro de um mês, para uma equipe de 8 pessoas.
+* **Resultado obtido:** Redução aproximada de 24 horas mensais de atividades manuais para uma equipe de 8 colaboradores, além do aumento da rastreabilidade e padronização dos registros.
 * **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists, Microsoft Teams, Power BI.
 * **[👉 Ver Case Técnico Detalhado](case-automate.md)**
 

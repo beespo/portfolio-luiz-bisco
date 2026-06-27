@@ -175,6 +175,8 @@ Aplicação de Inteligência Artificial para:
 
 ### Projeto 2: Criação Automática de Código de Projetos
 
+![Geração de ID de Projetos](assets/images/fluxo-geracao-id-projetos.png)
+
 * **O Problema:** Projetos distintos podem ser realizados para um mesmo produto e, devido à alta complexidade dos projetos farmacêuticos, muitos controles são utilizados. Sem uma codificação eficiente, há perda de rastreabilidade e dificuldade de integração entre bases de dados.
 * **A Solução:** Assim que um projeto é criado no Microsoft Lists, o fluxo gera automaticamente um código único baseado no ano e na última sequência utilizada anteriormente. Após a criação, as áreas técnicas são notificadas automaticamente.
 * **Resultado obtido:** Aproximadamente 60 projetos codificados por mês.
@@ -182,11 +184,12 @@ Aplicação de Inteligência Artificial para:
 
 ### Projeto 3: Alerta Semanal de Demandas em Avaliação e Programações Atrasadas
 
+![Alerta Semanal de Atrasos](assets/images/fluxo-atraso-fabricaçoes.png)
+
 * **O Problema:** Demandas em avaliação e programações atrasadas precisavam ser identificadas manualmente em diferentes controles operacionais, aumentando o risco de atrasos passarem despercebidos.
 * **A Solução:** Desenvolvi um fluxo automatizado que executa semanalmente, consulta as bases de acompanhamento, identifica pendências e atrasos, consolida as informações em um relatório único e envia notificações automáticas aos responsáveis.
 * **Resultado obtido:** Aproximadamente 40 projetos ativos monitorados por semana, redução do acompanhamento manual de pendências e aumento da visibilidade para liderança e equipes técnicas.
 * **Stack/ferramentas utilizadas:** Power Automate, Excel Online, SharePoint, Outlook, HTML para geração dinâmica de relatórios.
-* **[👉 Ver Case Técnico Detalhado](case-alerta-demandas.md)**
 
 ---
 

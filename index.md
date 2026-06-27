@@ -2,10 +2,10 @@
 
 ## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
 
-Power BI • Power Automate • SharePoint • Python • IA Generativa (Gen-AI)
+Automação de Processos • Dados • Business Intelligence • Inteligência Artificial
 
 
-## Confidencialidade e Anonimização dos Dados
+## Disclaimer - Confidencialidade e Anonimização dos Dados
 
 Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.
 
@@ -38,8 +38,7 @@ O objetivo deste material é demonstrar competências técnicas em Business Inte
 
 ### Outros
 
-* [Resultados Obtidos](#resultados-obtidos)
-* [Tecnologias](#tecnologias)
+* [Stack principal](#stack-principa)
 * [Sobre Mim](#sobre-mim)
 * [Contato](#contato)
 
@@ -131,7 +130,7 @@ Aplicação de Inteligência Artificial para:
 
 ### Painel 1: Dashboard Executivo de Projetos Prioritários (Power BI)
 * **O Problema:** Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.
-* **A Solução:** Desenvolvimento de dashboard executivo para monitoramento de indicadores estratégicos, cronogramas, mudanças, postergações e status dos projetos prioritários, consolidando dados provenientes de múltiplas fontes e proporcionando maior visibilidade para lideranças e stakeholders.
+* **A Solução:** Desenvolvimento e manutenção de dashboard executivo para monitoramento de indicadores estratégicos, cronogramas, mudanças, postergações e status dos projetos prioritários, consolidando dados provenientes de múltiplas fontes e proporcionando maior visibilidade para lideranças e stakeholders.
 * **Ferramentas/Stack:** Excel, Power BI, Power Query, SharePoint, Modelagem Dimensional (Star Schema).
 * **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
 
@@ -139,7 +138,7 @@ Aplicação de Inteligência Artificial para:
 
 ### Painel 2: Painel de Solicitações, Postergações e Finalização de Projetos (Power BI & Power Automate)
 * **O Problema:** Ausência de rastreabilidade, padronização e visibilidade sobre o ciclo de vida dos projetos, dificultando o acompanhamento de solicitações, postergações, responsáveis e status das entregas.
-* **A Solução:** Desenvolvimento de um fluxo automatizado para recebimento, direcionamento e acompanhamento de projetos, integrando Microsoft Forms, Microsoft Lists e Power Automate. O processo registra solicitações, postergações, finalizações e responsáveis, consolidando todas as informações em dashboards Power BI para acompanhamento operacional e gerencial.
+* **A Solução:** Desenvolvi um fluxo automatizado para recebimento, direcionamento e acompanhamento de projetos, integrando Microsoft Forms, Microsoft Lists e Power Automate. O processo registra solicitações, postergações, finalizações e responsáveis, consolidando todas as informações em dashboards Power BI para acompanhamento operacional e gerencial.
 * **Ferramentas/Stack:** Power Automate, Microsoft Lists, Microsoft Forms, Power BI, Power Query, Modelagem Dimensional (Star Schema).
 * **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
 
@@ -163,20 +162,31 @@ Aplicação de Inteligência Artificial para:
 
 
 
-# Meus Projetos de Destaque - Power Automate (fluxos automatizados)⚙️
+# Meus Projetos de Destaque - Power Automate (fluxos automatizados)
+
 ### Projeto 1: Registro de postergações de projetos
+
 * **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A postergação sem registro atrapalhava a identificação da causa-raiz das alterações de data, sem uma plano de ação eficiente. 
 * **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário rápido e personalizado para preenchimento do gestor do projeto, exigindo inserção de justificativa da mudança. As informações são preenchidas em uma base de postergações, que alimenta um relatório de Power BI.
 * **Resultado obtido:** Redução aproximada de 24 horas mensais de atividades manuais para uma equipe de 8 colaboradores, além do aumento da rastreabilidade e padronização dos registros.
 * **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists, Microsoft Teams, Power BI.
-* **[👉 Ver Case Técnico Detalhado](case-automate.md)**
 
 
 ### Projeto 2: Criação automática de código de projetos.
 * **O Problema:** Projetos distintos podem ser realizados para um mesmo produto e, devido à alta complexidade dos projetos farmacêuticos, muitos controles (por planilhas Excel, Microsoft Lists, entre outros) são utilizados. Sem uma codificação eficiente, há perda de informação e falta de exposição das etapas do projeto, por dificultar as conexões entre bases de dados.
 * **A Solução:** Assim que um projeto é criado no Microsoft Lists, o fluxo compreende a criação, e gera automaticamente um código único, baseado no ano e na última sequência utilizada anteriormente. Desta forma, nenhum projeto terá o código de outro. Após a criação, as áreas técnicas são notificadas do novo item.
+* **Resultado obtido:** Aproximadamente 60 projetos codificados por mês.
 * **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists.
-* **[👉 Ver Case Técnico Detalhado](case-automate.md)**
+
+
+### Projeto 3: Alerta Semanal de Demandas em Avaliação e Programações Atrasadas
+* **O Problema:** Demandas em avaliação e programações atrasadas precisavam ser identificadas manualmente em diferentes controles operacionais. A ausência de um monitoramento centralizado aumentava o risco de atrasos passarem despercebidos, dificultava o acompanhamento pela liderança e consumia tempo das equipes responsáveis.
+* **A Solução:** Desenvolvi um fluxo automatizado no Power Automate que executa semanalmente de forma programada. A automação consulta as bases de acompanhamento, identifica demandas ainda em avaliação e programações atrasadas em relação ao cronograma previsto, consolida as informações em um relatório único e envia automaticamente notificações por e-mail para os responsáveis. O fluxo também registra o histórico das execuções para garantir rastreabilidade e controle.
+* **Resultado obtido:** Aproximadamente 40 projetos ativos monitorados por semana, redução do acompanhamento manual de pendências, aumento da visibilidade para liderança e equipes técnicas, além de maior agilidade na identificação de riscos e atrasos.
+* **Stack/ferramentas utilizadas:** Power Automate, Excel Online, SharePoint, Outlook, HTML para geração dinâmica de relatórios.
+* **[👉 Ver Case Técnico Detalhado](case-alerta-demandas.md)**
+
+
 
 
 # Resultados Obtidos
@@ -193,8 +203,12 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 - aumento da eficiência operacional.
 
 
+# Em desenvolvimento
 
-# Tecnologias
+Projetos utilizando Python, tratamento e automação de dados e Inteligência Artificial aplicada a negócios serão adicionados em breve.
+
+
+# Stack principal
 
 ## Principais ferramentas utilizadas
 

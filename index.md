@@ -166,6 +166,8 @@ Aplicação de Inteligência Artificial para:
 
 ### Projeto 1: Registro de Postergações de Projetos
 
+![Fluxo de Postergações](assets/images/fluxo-postergacoes-de-projetos.png) 
+
 * **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A ausência desse histórico dificultava a identificação das causas das alterações de prazo e a construção de planos de ação.
 * **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário rápido e personalizado para preenchimento do gestor do projeto, exigindo inserção de justificativa da mudança. As informações são registradas em uma base que alimenta relatórios de acompanhamento.
 * **Resultado obtido:** Redução aproximada de 24 horas mensais de atividades manuais para uma equipe de 8 colaboradores, além do aumento da rastreabilidade e padronização dos registros.

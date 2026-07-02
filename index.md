@@ -131,16 +131,15 @@ Aplicação de Inteligência Artificial para:
 * **O Problema:** Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.
 * **A Solução:** Desenvolvimento e manutenção de dashboard executivo para monitoramento de indicadores estratégicos, cronogramas, mudanças, postergações e status dos projetos prioritários, consolidando dados provenientes de múltiplas fontes e proporcionando maior visibilidade para lideranças e stakeholders.
 * **Ferramentas/Stack:** Excel, Power BI, Power Query, SharePoint, Modelagem Dimensional (Star Schema).
-* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
-
+![Dashboard de Postergações](assets/images/dashboard-postergacoes-de-projetos-anonimizado.png) 
 ---
 
-### Painel 2: Painel de Solicitações, Postergações e Finalização de Projetos (Power BI & Power Automate)
+### Painel 2: Painel de Solicitações, Progresso e Finalização de Projetos (Power BI & Power Automate)
 
 * **O Problema:** Ausência de rastreabilidade, padronização e visibilidade sobre o ciclo de vida dos projetos, dificultando o acompanhamento de solicitações, postergações, responsáveis e status das entregas.
-* **A Solução:** Desenvolvi um fluxo automatizado para recebimento, direcionamento e acompanhamento de projetos, integrando Microsoft Forms, Microsoft Lists e Power Automate. O processo registra solicitações, postergações, finalizações e responsáveis, consolidando todas as informações em dashboards Power BI para acompanhamento operacional e gerencial.
+* **A Solução:** Um fluxo automatizado para recebimento, direcionamento e acompanhamento de projetos, integrando Microsoft Forms, Microsoft Lists e Power Automate. O processo registra solicitações, postergações, finalizações e responsáveis, consolidando todas as informações em dashboards Power BI para acompanhamento operacional e gerencial.
 * **Ferramentas/Stack:** Power Automate, Microsoft Lists, Microsoft Forms, Power BI, Power Query, Modelagem Dimensional (Star Schema).
-* **[👉 Ver Case Técnico Detalhado](case-powerbi.md)**
+![Dashboard de Solicitações](assets/images/dashboard-solicitaçao-de-projetos-anonimizado.png) 
 
 ---
 

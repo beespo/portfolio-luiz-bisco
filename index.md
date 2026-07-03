@@ -132,7 +132,9 @@ Aplicação de Inteligência Artificial para:
 
 * **O Problema:** Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.
 * **A Solução:** Desenvolvimento e manutenção de dashboard executivo para monitoramento de indicadores estratégicos, mudanças, postergações e status dos projetos prioritários, consolidando dados provenientes de múltiplas fontes e proporcionando maior visibilidade para lideranças e stakeholders.
-* **Ferramentas/Stack:** Excel, Power BI, Power Query, SharePoint Lists, Modelagem Dimensional (Star Schema).
+* **Ferramentas/Stack:**  Excel, Power BI, Power Query, SharePoint Lists, Modelagem Dimensional (Star Schema).
+
+
 ---
 
 ### Painéis 2: Painéis de Solicitações e posteriores Postergações de Projetos (Power BI & Power Automate)

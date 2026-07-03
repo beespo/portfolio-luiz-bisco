@@ -75,7 +75,7 @@ Meu objetivo é transformar essas operações em fluxos estruturados, automatiza
 ## Fluxo operacional integrado
 
 Ação operacional
-⬇
+⬇ 
 Automação e validações
 ⬇
 Atualização automática de base de dados

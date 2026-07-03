@@ -8,7 +8,7 @@ Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam da
 
 As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.
 
-Os dados visuais foram tratados por meio de técnicas de anonimização e substituição de informações sensíveis, preservando exclusivamente a arquitetura da solução, a lógica de negócio, a modelagem dos dados, os processos automatizados e os indicadores utilizados para tomada de decisão.
+Os dados visuais foram tratados por meio de técnicas de anonimização e substituição de informações sensíveis, preservando exclusivamente a arquitetura da solução, a lógica de negócio, a modelagem dos dados, os processos automatizados e os indicadores utilizados para tomada de decisão. 
 
 O objetivo deste material é demonstrar competências técnicas em Business Intelligence, Automação de Processos, Integração de Dados e Inteligência Artificial, sem comprometer informações proprietárias.
 

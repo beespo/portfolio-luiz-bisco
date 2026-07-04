@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Meus Projetos de Destaque - Power Automate ⚙️
-permalink: /powerbi/
 ---
 
 ## [🏠 Página Inicial](index.md)

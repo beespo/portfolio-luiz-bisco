@@ -1,4 +1,3 @@
-## Business Intelligence • Automação • Analytics • Inteligência Artificial
 
 ## Sobre Mim
 

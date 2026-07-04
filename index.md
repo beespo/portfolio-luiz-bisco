@@ -1,5 +1,13 @@
 # Luiz Bisco
-## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
+# Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
+
+## Sobre Mim
+
+Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico.
+
+Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.
+
+-- 
 
 # Índice
 
@@ -72,7 +80,8 @@ Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
 * SharePoint;
 * Teams;
 * Outlook;
-* Excel Online;
+* Excel;
+* SAP;
 * Aprovações manuais ou automáticas;
 * Alertas operacionais.
 
@@ -105,13 +114,12 @@ Aplicação de Inteligência Artificial para:
 Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram para:
 
 * redução de atividades manuais;
-* redução de tempo operacional;
+* redução de tempo operacional e aumento de eficiência;
 * otimização de carregamento e diminuição de erros de atualização de relatórios de Power BI;
 * aumento da rastreabilidade dos processos;
 * padronização de fluxos corporativos;
 * consolidação de informações em fonte única;
-* melhoria da tomada de decisão;
-* aumento da eficiência operacional.
+* melhoria da tomada de decisão.
 
 ---
 
@@ -145,18 +153,7 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 
 ---
 
-
-## Sobre Mim
-
-Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico.
-
-Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.
-
----
-
 ## Contato
-
-Se você precisa otimizar processos ou relatórios da sua empresa, entre em contato:
 
 * **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/luizrvbisco/)
 * **E-mail:** [luizrvbisco@gmail.com](mailto:luizrvbisco@gmail.com)

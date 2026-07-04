@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Meus Projetos de Destaque - Power BI 📊
+classes: narrow
 ---
 
 # Business Intelligence

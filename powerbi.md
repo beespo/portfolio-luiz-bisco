@@ -1,7 +1,6 @@
 ---
 layout: single
 title: Meus Projetos de Destaque - Power BI 📊
-permalink: /powerbi/
 ---
 
 # Business Intelligence

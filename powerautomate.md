@@ -1,5 +1,7 @@
 # Meus Projetos de Destaque - Power Automate ⚙️
 
+- [Página Inicial](index.md)
+
 ## Automação de Processos
 
 * [Registro de Postergações de Projetos](#automacao1)

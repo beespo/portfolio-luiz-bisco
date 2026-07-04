@@ -1,0 +1,14 @@
+title: "Luiz Bisco"
+description: "Automação de Processos, BI e IA Aplicada"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default"
+
+locale: "pt-BR"
+
+atom_feed:
+  hide: true

@@ -1,5 +1,7 @@
 # Meus Projetos de Destaque - Power BI 📊
 
+## [🏠 Página Inicial](index.md)
+
 ## Business Intelligence
 
 * [Dashboard Executivo de Projetos Prioritários](#painel1)

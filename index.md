@@ -3,7 +3,7 @@
 
 ## Sobre Mim
 
-Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico.
+Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico. 
 
 Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.
 
@@ -17,7 +17,7 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 * [Principais Especialidades](#principais-especialidades)
 
 ### Projetos
-- [Aviso de Confidencialidade e Anonimização](#Aviso---Confidencialidade-e-anonimização-dos-dados)
+- [Aviso de Confidencialidade e Anonimização](#Aviso-Confidencialidade-e-anonimização-dos-dados)
 - [Power BI](powerbi.md)
 - [Power Automate & IA Aplicada](powerautomate.md)
 

@@ -17,7 +17,7 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 * [Principais Especialidades](#principais-especialidades)
 
 ### Projetos
-- [Aviso de Confidencialidade e Anonimização](#Aviso-Confidencialidade-e-anonimização-dos-dados)
+- [Aviso de Confidencialidade e Anonimização](#aviso)
 - [Power BI](powerbi.md)
 - [Power Automate & IA Aplicada](powerautomate.md)
 
@@ -29,6 +29,7 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 
 ---
 
+<a id="aviso"></a>
 ## Aviso - Confidencialidade e Anonimização dos Dados
 
 Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.

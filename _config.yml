@@ -7,6 +7,7 @@ plugins:
   - jekyll-include-cache
 
 minimal_mistakes_skin: "default"
+banner: "assets/images/banner-portfolio.png"
 
 locale: "pt-BR"
 

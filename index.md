@@ -1,5 +1,8 @@
 # Luiz Bisco
-## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
+
+### Transformo processos manuais em operações orientadas por dados, automação e IA.
+
+Business Intelligence • Automação • Analytics • Inteligência Artificial
 
 ## Sobre Mim
 

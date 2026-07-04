@@ -1,21 +1,16 @@
 # Luiz Bisco
 ## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
 
-### Navegação
-
-- [Aviso de Confidencialidade e Anonimização](#Confidencialidade-e-anonimização-dos-dados)
-- [Power BI](powerbi.md)
-- [Power Automate](powerautomate.md)
-- [Sobre Mim](sobre.md)
-
----
-
 # Índice
 
 * [Para que serve este site?](#para-que-serve-este-site)
 * [O Problema que eu resolvo](#o-problema-que-eu-resolvo)
-* [Como funciona a estrutura das soluções](#como-funciona-a-estrutura-das-solucoes)
 * [Principais Especialidades](#principais-especialidades)
+
+### Projetos
+- [Aviso de Confidencialidade e Anonimização](#Confidencialidade-e-anonimização-dos-dados)
+- [Power BI](powerbi.md)
+- [Power Automate & IA Aplicada](powerautomate.md)
 
 ### Outros
 

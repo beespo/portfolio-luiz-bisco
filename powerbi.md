@@ -1,13 +1,15 @@
 # Meus Projetos de Destaque - Power BI 📊
 
-### Business Intelligence
+## Business Intelligence
 
-* [Dashboard Executivo de Projetos Prioritários](#painel-1-dashboard-executivo-de-projetos-prioritarios-power-bi)
-* [Painel de Solicitações e Postergações](#painel-2-painel-de-solicitacoes-postergacoes-e-finalizacao-de-projetos-power-bi--power-automate)
-* [Dashboard de Cronogramas](#painel-3-dashboard-de-cronogramas-e-regularizacoes-power-bi)
-* [Dashboard de Produtividade](#painel-4-dashboard-de-produtividade-e-gestao-de-portfolio-power-bi)
+* [Dashboard Executivo de Projetos Prioritários](#painel-1:-dashboard-executivo-de-projetos-prioritarios)
+* [Painel de Solicitações e Postergações](#paineis-2:-paineis-de-solicitacoes-e-posteriores-postergacoes-de-projetos)
+* [Dashboard de Produtividade](#painel-3:-dashboard-de-gerenciamento-de-capacidade-e-produtividade-de-equipe-de-projetos)
+* [Dashboard de Cronogramas](#painel-4:-dashboard-de-cronogramas-e-regularizacoes)
+* [Dashboard de Produtividade](#painel-5:-dashboard-de-gestao-de-portfolio-e-acompanhamento-anual-de-entregas)
 
-### Painel 1: Dashboard Executivo de Projetos Prioritários (Power BI)
+  
+### Painel 1: Dashboard Executivo de Projetos Prioritários
 
 ![Dashboard N3](assets/images/dashboard-n3-anonimizado.png)
 
@@ -18,7 +20,7 @@
 
 ---
 
-### Painéis 2: Painéis de Solicitações e posteriores Postergações de Projetos (Power BI & Power Automate)
+### Painéis 2: Painéis de Solicitações e Posteriores Postergações de Projetos
 
 ![Dashboard de Solicitações](assets/images/dashboard-solicitaçao-de-projetos-anonimizado.png) 
 ![Dashboard de Postergações](assets/images/dashboard-postergacoes-de-projetos-anonimizado.png) 
@@ -30,7 +32,7 @@
 
 
 ---
-### Painel 3: Dashboard de Gerenciamento de Capacidade e Produtividade de Equipe de Projetos (Power BI)
+### Painel 3: Dashboard de Gerenciamento de Capacidade e Produtividade de Equipe de Projetos
 
 ![Dashboard de Carreira de Projetos](assets/images/dashboard-carteira-de-projetos-anonimizado.png) 
 
@@ -40,7 +42,7 @@
 
 --- 
 
-### Painel 4: Dashboard de Cronogramas e Regularizações (Power BI)
+### Painel 4: Dashboard de Cronogramas e Regularizações
 
 ![Dashboard de Cronogramas](assets/images/dashboard-cronogramas-de-projetos-anonimizado.png) 
 
@@ -51,8 +53,7 @@
 
 ---
 
-### Painel 5: Dashboard de Gestão de Portfólio e Acompanhamento Anual de Entregas (Power BI)
-
+### Painel 5: Dashboard de Gestão de Portfólio e Acompanhamento Anual de Entregas
 ![Dashboard de Entrega Anual](assets/images/dashboard-evolucao-projetos-por-ano-anonimizado.png) 
 
 * **O Problema:** Falta de visibilidade consolidada sobre o andamento das entregas anuais, produtividade e capacidade das equipes e evolução dos projetos ao longo do tempo.

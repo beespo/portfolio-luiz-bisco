@@ -1,5 +1,14 @@
 # Luiz Bisco
 
+## Navegação
+
+[👤 Sobre Mim](#sobre-mim)
+[📊 Projetos Power BI](#power-bi)
+[⚙️ Projetos Power Automate](#power-automate)
+[📩 Contato](#contato)
+
+
+
 ## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
 
 ## Disclaimer - Confidencialidade e Anonimização dos Dados
@@ -124,6 +133,9 @@ Aplicação de Inteligência Artificial para:
 
 ---
 
+
+
+
 # Meus Projetos de Destaque - Power BI 📊
 
 ### Painel 1: Dashboard Executivo de Projetos Prioritários (Power BI)
@@ -180,6 +192,8 @@ Aplicação de Inteligência Artificial para:
 
 
 ---
+
+
 
 # Meus Projetos de Destaque - Power Automate
 
@@ -255,6 +269,8 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 * GitHub
 
 ---
+
+
 
 ## Sobre Mim
 

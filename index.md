@@ -3,7 +3,7 @@
 
 Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico. 
 
-Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.
+Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional. 
 
 ---
 

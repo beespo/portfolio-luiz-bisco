@@ -9,7 +9,7 @@
 * [Dashboard de Produtividade](#painel-5:-dashboard-de-gestao-de-portfolio-e-acompanhamento-anual-de-entregas)
 
   
-### Painel 1: Dashboard Executivo de Projetos Prioritários
+## Painel 1: Dashboard Executivo de Projetos Prioritários
 
 ![Dashboard N3](assets/images/dashboard-n3-anonimizado.png)
 
@@ -20,7 +20,7 @@
 
 ---
 
-### Painéis 2: Painéis de Solicitações e Posteriores Postergações de Projetos
+## Painéis 2: Painéis de Solicitações e Posteriores Postergações de Projetos
 
 ![Dashboard de Solicitações](assets/images/dashboard-solicitaçao-de-projetos-anonimizado.png) 
 ![Dashboard de Postergações](assets/images/dashboard-postergacoes-de-projetos-anonimizado.png) 
@@ -32,7 +32,7 @@
 
 
 ---
-### Painel 3: Dashboard de Gerenciamento de Capacidade e Produtividade de Equipe de Projetos
+## Painel 3: Dashboard de Gerenciamento de Capacidade e Produtividade de Equipe de Projetos
 
 ![Dashboard de Carreira de Projetos](assets/images/dashboard-carteira-de-projetos-anonimizado.png) 
 
@@ -42,7 +42,7 @@
 
 --- 
 
-### Painel 4: Dashboard de Cronogramas e Regularizações
+## Painel 4: Dashboard de Cronogramas e Regularizações
 
 ![Dashboard de Cronogramas](assets/images/dashboard-cronogramas-de-projetos-anonimizado.png) 
 
@@ -53,7 +53,7 @@
 
 ---
 
-### Painel 5: Dashboard de Gestão de Portfólio e Acompanhamento Anual de Entregas
+## Painel 5: Dashboard de Gestão de Portfólio e Acompanhamento Anual de Entregas
 ![Dashboard de Entrega Anual](assets/images/dashboard-evolucao-projetos-por-ano-anonimizado.png) 
 
 * **O Problema:** Falta de visibilidade consolidada sobre o andamento das entregas anuais, produtividade e capacidade das equipes e evolução dos projetos ao longo do tempo.

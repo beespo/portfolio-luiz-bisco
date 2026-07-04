@@ -115,8 +115,9 @@ Aplicação de Inteligência Artificial para:
 Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram para:
 
 * redução de atividades manuais;
+* economiza 23 horas de trabalho mensais de uma equipe de 8 analistas com apenas 1 fluxo automático;
 * redução de tempo operacional e aumento de eficiência;
-* otimização de carregamento e diminuição de erros de atualização de relatórios de Power BI;
+* otimização de carregamento e diminuição de erros de atualização de mais de 10 relatórios de Power BI, utilizando modelagem de dados;
 * aumento da rastreabilidade dos processos;
 * padronização de fluxos corporativos;
 * consolidação de informações em fonte única;

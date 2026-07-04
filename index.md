@@ -1,19 +1,12 @@
 # Luiz Bisco
-
-## Navegação
-
-
 ## Automação de Processos, Tratamento de Dados, Business Intelligence (BI) e IA Aplicada
 
-## Disclaimer - Confidencialidade e Anonimização dos Dados
+### Navegação
 
-Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.
-
-As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.
-
-Os dados visuais foram tratados por meio de técnicas de anonimização e substituição de informações sensíveis, preservando exclusivamente a arquitetura da solução, a lógica de negócio, a modelagem dos dados, os processos automatizados e os indicadores utilizados para tomada de decisão. 
-
-O objetivo deste material é demonstrar competências técnicas em Business Intelligence, Automação de Processos, Integração de Dados e Inteligência Artificial, sem comprometer informações proprietárias.
+- [Aviso de Confidencialidade e Anonimização](#Confidencialidade-e-anonimização-dos-dados)
+- [Power BI](powerbi.md)
+- [Power Automate](powerautomate.md)
+- [Sobre Mim](sobre.md)
 
 ---
 
@@ -24,16 +17,24 @@ O objetivo deste material é demonstrar competências técnicas em Business Inte
 * [Como funciona a estrutura das soluções](#como-funciona-a-estrutura-das-solucoes)
 * [Principais Especialidades](#principais-especialidades)
 
-
-
-
-
 ### Outros
 
 * [Resultados Obtidos](#resultados-obtidos)
 * [Stack Principal](#stack-principal)
 * [Sobre Mim](#sobre-mim)
 * [Contato](#contato)
+
+---
+
+## Confidencialidade e Anonimização dos Dados
+
+Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.
+
+As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.
+
+Os dados visuais foram tratados por meio de técnicas de anonimização e substituição de informações sensíveis, preservando exclusivamente a arquitetura da solução, a lógica de negócio, a modelagem dos dados, os processos automatizados e os indicadores utilizados para tomada de decisão. 
+
+O objetivo deste material é demonstrar competências técnicas em Business Intelligence (BI), Automação de Processos, Integração de Dados e Inteligência Artificial, sem comprometer informações proprietárias.
 
 ---
 
@@ -63,20 +64,6 @@ Muitas empresas ainda dependem de:
 * processos sujeitos a falhas humanas.
 
 Meu objetivo é transformar essas operações em fluxos estruturados, automatizados e orientados por dados.
-
-# Como funciona a estrutura das soluções
-
-## Fluxo operacional integrado
-
-Ação operacional
-⬇ 
-Automação e validações
-⬇
-Atualização automática de base de dados
-⬇
-Governança e rastreabilidade
-⬇
-Dashboards e indicadores em Power BI
 
 ---
 
@@ -156,12 +143,12 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 * Agentes de IA
 * AI Builder (Power Platform)
 
-## Desenvolvimento e Portfólio
-
+## Stack em desenvolvimento
 * GitHub
+* SQL
+* Python
 
 ---
-
 
 
 ## Sobre Mim

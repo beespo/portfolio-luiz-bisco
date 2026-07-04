@@ -2,13 +2,13 @@
 
 ## Business Intelligence
 
-* [Dashboard Executivo de Projetos Prioritários](#painel-1:-dashboard-executivo-de-projetos-prioritarios)
-* [Painel de Solicitações e Postergações](#paineis-2:-paineis-de-solicitacoes-e-posteriores-postergacoes-de-projetos)
-* [Dashboard de Produtividade](#painel-3:-dashboard-de-gerenciamento-de-capacidade-e-produtividade-de-equipe-de-projetos)
-* [Dashboard de Cronogramas](#painel-4:-dashboard-de-cronogramas-e-regularizacoes)
-* [Dashboard de Produtividade](#painel-5:-dashboard-de-gestao-de-portfolio-e-acompanhamento-anual-de-entregas)
+* [Dashboard Executivo de Projetos Prioritários](#painel1)
+* [Painéis de Solicitações e Postergações](#painel2)
+* [Dashboard de Capacidade e Produtividade da Equipe](#painel3)
+* [Dashboard de Cronogramas e Regularizações](#painel4)
+* [Dashboard de Gestão de Portfólio e Entregas Anuais](#painel5)
 
-  
+<a id="painel1"></a>
 ## Painel 1: Dashboard Executivo de Projetos Prioritários
 
 ![Dashboard N3](assets/images/dashboard-n3-anonimizado.png)
@@ -19,7 +19,7 @@
 
 
 ---
-
+<a id="painel2"></a>
 ## Painéis 2: Painéis de Solicitações e Posteriores Postergações de Projetos
 
 ![Dashboard de Solicitações](assets/images/dashboard-solicitaçao-de-projetos-anonimizado.png) 
@@ -32,6 +32,7 @@
 
 
 ---
+<a id="painel3"></a>
 ## Painel 3: Dashboard de Gerenciamento de Capacidade e Produtividade de Equipe de Projetos
 
 ![Dashboard de Carreira de Projetos](assets/images/dashboard-carteira-de-projetos-anonimizado.png) 
@@ -41,7 +42,7 @@
 * **Stack:** Excel, Power BI, Power Query, SharePoint, Modelagem Dimensional (Star Schema).
 
 --- 
-
+<a id="painel4"></a>
 ## Painel 4: Dashboard de Cronogramas e Regularizações
 
 ![Dashboard de Cronogramas](assets/images/dashboard-cronogramas-de-projetos-anonimizado.png) 
@@ -52,7 +53,7 @@
 
 
 ---
-
+<a id="painel5"></a>
 ## Painel 5: Dashboard de Gestão de Portfólio e Acompanhamento Anual de Entregas
 ![Dashboard de Entrega Anual](assets/images/dashboard-evolucao-projetos-por-ano-anonimizado.png) 
 

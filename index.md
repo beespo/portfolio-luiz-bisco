@@ -41,7 +41,7 @@ O objetivo deste material é demonstrar competências técnicas em Business Inte
 
 ---
 
-# Para que serve este site?
+## Para que serve este site?
 
 Aqui apresento projetos desenvolvidos para transformar processos manuais em operações orientadas por dados, automação e inteligência de negócio.
 
@@ -55,7 +55,7 @@ Este site reúne projetos desenvolvidos com foco em:
 
 ---
 
-# O Problema que eu resolvo
+## O Problema que eu resolvo
 
 Muitas empresas ainda dependem de:
 
@@ -109,7 +109,7 @@ Aplicação de Inteligência Artificial para:
 
 ---
 
-# Resultados Obtidos
+## Resultados Obtidos
 
 Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram para:
 

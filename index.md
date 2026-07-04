@@ -73,40 +73,24 @@ Meu objetivo é transformar essas operações em fluxos estruturados, automatiza
 
 # Principais Especialidades
 
-## Automação de Processos
+## Especialidades
 
-Desenvolvimento de fluxos automatizados com Power Automate envolvendo:
+### Business Intelligence (BI)
 
-* Microsoft Forms;
-* SharePoint;
-* Teams;
-* Outlook;
-* Excel;
-* SAP;
-* Aprovações manuais ou automáticas;
-* Alertas operacionais.
+Dashboards executivos, KPIs, modelagem dimensional e análise de dados.
 
-## Business Intelligence (BI) & Analytics
+---
 
-Construção de dashboards e estruturas analíticas com foco em:
+### Automação de Processos (Power Automate)
 
-* KPIs operacionais (Indicador-Chave de Desempenho, do inglês: Key Performance Indicator);
-* Indicadores estratégicos;
-* Modelagem dimensional;
-* ETL com Power Query;
-* Consolidação de múltiplas fontes;
-* Relatórios executivos.
+Power Automate, SharePoint, Forms, Teams e integrações corporativas.
 
-## IA Aplicada a Processos
+---
 
-Aplicação de Inteligência Artificial para:
+### IA Aplicada
 
-* análise e organização de informações;
-* apoio à tomada de decisão;
-* geração e análise de documentação;
-* automação de atividades repetitivas e cotidianas;
-* aumento de produtividade em fluxos corporativos;
-* integração com agentes e ferramentas de IA.
+Automação inteligente, produtividade e apoio à tomada de decisão.
+
 
 ---
 

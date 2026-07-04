@@ -98,7 +98,7 @@ Automação inteligente, produtividade e apoio à tomada de decisão.
 Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram para:
 
 * redução de atividades manuais;
-* economiza 23 horas de trabalho mensais de uma equipe de 8 analistas com apenas 1 fluxo automático;
+* economia de 23 horas mensais de trabalho de uma equipe de 8 analistas, com apenas 1 fluxo automático;
 * redução de tempo operacional e aumento de eficiência;
 * otimização de carregamento e diminuição de erros de atualização de mais de 10 relatórios de Power BI, utilizando modelagem de dados;
 * aumento da rastreabilidade dos processos;

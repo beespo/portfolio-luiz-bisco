@@ -15,7 +15,7 @@
 ### Outros
 
 * [Resultados Obtidos](#resultados-obtidos)
-* [Stack Principal](#stack-principal)
+* [Ferramentas mais utilizadas](#stack-principal)
 * [Sobre Mim](#sobre-mim)
 * [Contato](#contato)
 
@@ -58,7 +58,7 @@ Muitas empresas ainda dependem de:
 * falta de rastreabilidade;
 * processos sujeitos a falhas humanas.
 
-Meu objetivo é transformar essas operações em fluxos estruturados, automatizados e orientados por dados.
+Meu objetivo é transformar essas operações em fluxos estruturados, automatizados e orientados por dados. Os exemplos que eu trago neste site exemplificam a linha de raciocínio que busco ter nos meus projetos.
 
 ---
 
@@ -138,7 +138,7 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 * Agentes de IA
 * AI Builder (Power Platform)
 
-## Stack em desenvolvimento
+## Em desenvolvimento
 * GitHub
 * SQL
 * Python

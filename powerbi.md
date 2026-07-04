@@ -1,4 +1,10 @@
-# Meus Projetos de Destaque - Power BI 📊
+---
+layout: single
+title: Meus Projetos de Destaque - Power BI 📊
+permalink: /powerbi/
+---
+
+# Business Intelligence
 
 ## [🏠 Página Inicial](index.md)
 

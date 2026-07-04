@@ -1,4 +1,4 @@
-[Aviso de Confidencialidade e Anonimização](#aviso) | [Power BI](powerbi.md) | [Power Automate & IA Aplicada](powerautomate.md)
+## [Confidencialidade e Anonimização](#aviso) | [Power BI](powerbi.md) | [Power Automate & IA Aplicada](powerautomate.md)
 
 ## Sobre Mim 
 

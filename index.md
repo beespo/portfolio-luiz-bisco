@@ -1,4 +1,3 @@
-# Luiz Bisco
 ## Business Intelligence • Automação • Analytics • Inteligência Artificial
 
 ## Sobre Mim

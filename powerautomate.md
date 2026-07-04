@@ -1,34 +1,54 @@
-# Meus Projetos de Destaque - Power Automate
+# Meus Projetos de Destaque - Power Automate ⚙️
 
-### Automação
+## Automação de Processos
 
-* [Registro de Postergações](#projeto-1-registro-de-postergacoes-de-projetos)
-* [Criação Automática de Código de Projetos](#projeto-2-criacao-automatica-de-codigo-de-projetos)
-* [Alerta Semanal de Demandas](#projeto-3-alerta-semanal-de-demandas-em-avaliacao-e-programacoes-atrasadas)
+* [Registro de Postergações de Projetos](#automacao1)
+* [Criação Automática de Código de Projetos](#automacao2)
+* [Alerta Semanal de Demandas em Avaliação e Programações Atrasadas](#automacao3)
 
-### Projeto 1: Registro de Postergações de Projetos
+---
 
-![Fluxo de Postergações](assets/images/fluxo-postergacoes-de-projetos.png) 
+<a id="automacao1"></a>
+## Projeto 1: Registro de Postergações de Projetos
 
-* **O Problema:** Devido ao alto volume, os projetos eram postergados sem uma governança de registro de motivos. A ausência desse histórico dificultava a identificação das causas das alterações de prazo e a construção de planos de ação.
-* **A Solução:** Assim que uma postergação é identificada, o fluxo dispara um formulário rápido e personalizado para preenchimento do gestor do projeto, exigindo inserção de justificativa da mudança. As informações são registradas em uma base que alimenta relatórios de acompanhamento.
-* **Resultado obtido:** Redução aproximada de 24 horas mensais de atividades manuais para uma equipe de 8 colaboradores, além do aumento da rastreabilidade e padronização dos registros.
-* **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists, Microsoft Teams, Power BI.
+![Fluxo de Postergações](assets/images/fluxo-postergacoes-de-projetos.png)
 
-### Projeto 2: Criação Automática de Código de Projetos
+* **O Problema:** Devido ao alto volume de projetos conduzidos simultaneamente, postergações ocorriam sem um processo padronizado de registro dos motivos. A ausência desse histórico dificultava a identificação das causas das alterações de prazo, a análise de tendências e a construção de planos de ação preventivos.
+
+* **A Solução:** Estruturação de um fluxo automatizado para registro de postergações de projetos. Sempre que uma alteração de prazo é identificada, o gestor responsável recebe automaticamente um formulário para preenchimento da justificativa, garantindo que todas as informações sejam registradas de forma padronizada e armazenadas em uma base centralizada para acompanhamento e análise.
+
+* **Resultado Obtido:** Redução aproximada de 24 horas mensais de atividades manuais para uma equipe de 8 colaboradores, além do aumento da rastreabilidade, padronização e disponibilidade das informações para acompanhamento gerencial.
+
+* **Ferramentas/Stack:** Power Automate, Microsoft Lists, Microsoft Teams, Power BI.
+
+---
+
+<a id="automacao2"></a>
+## Projeto 2: Criação Automática de Código de Projetos
 
 ![Geração de ID de Projetos](assets/images/fluxo-geracao-id-projetos.png)
 
-* **O Problema:** Projetos distintos podem ser realizados para um mesmo produto e, devido à alta complexidade dos projetos farmacêuticos, muitos controles são utilizados. Sem uma codificação eficiente, há perda de rastreabilidade e dificuldade de integração entre bases de dados.
-* **A Solução:** Assim que um projeto é criado no Microsoft Lists, o fluxo gera automaticamente um código único baseado no ano e na última sequência utilizada anteriormente. Após a criação, as áreas técnicas são notificadas automaticamente.
-* **Resultado obtido:** Aproximadamente 60 projetos codificados por mês.
-* **Stack/ferramentas utilizadas:** Power Automate, Microsoft Lists.
+* **O Problema:** Projetos distintos podem ser executados para um mesmo produto e, devido à elevada complexidade dos processos regulatórios, diversas bases e controles são utilizados simultaneamente. A ausência de uma identificação padronizada dificultava a integração entre sistemas e aumentava o risco de inconsistências nos registros.
 
-### Projeto 3: Alerta Semanal de Demandas em Avaliação e Programações Atrasadas
+* **A Solução:** Implementação de um fluxo automatizado para geração de identificadores únicos de projetos. Sempre que um novo projeto é criado, o sistema gera automaticamente um código padronizado baseado em regras previamente definidas, garantindo unicidade, rastreabilidade e integração entre os diferentes controles utilizados ao longo do ciclo de vida do projeto.
 
-![Alerta Semanal de Atrasos](assets/images/fluxo-atraso-fabricaçoes.png)
+* **Resultado Obtido:** Aproximadamente 60 projetos codificados automaticamente por mês, eliminando atividades manuais e reduzindo riscos de duplicidade ou inconsistência nos registros.
 
-* **O Problema:** Demandas em avaliação e programações atrasadas precisavam ser identificadas manualmente em diferentes controles operacionais, aumentando o risco de atrasos passarem despercebidos.
-* **A Solução:** Desenvolvi um fluxo automatizado que executa semanalmente, consulta as bases de acompanhamento, identifica pendências e atrasos, consolida as informações em um relatório único e envia notificações automáticas aos responsáveis.
-* **Resultado obtido:** Aproximadamente 40 projetos ativos monitorados por semana, redução do acompanhamento manual de pendências e aumento da visibilidade para liderança e equipes técnicas.
-* **Stack/ferramentas utilizadas:** Power Automate, Excel Online, SharePoint, Outlook, HTML para geração dinâmica de relatórios.
+* **Ferramentas/Stack:** Power Automate, Microsoft Lists.
+
+---
+
+<a id="automacao3"></a>
+## Projeto 3: Alerta Semanal de Demandas em Avaliação e Programações Atrasadas
+
+![Alerta Semanal de Atrasos](assets/images/fluxo-atraso-fabricacoes.png)
+
+* **O Problema:** Demandas em avaliação e programações atrasadas precisavam ser identificadas manualmente em diferentes controles operacionais. A ausência de monitoramento centralizado aumentava o risco de atrasos passarem despercebidos, dificultando o acompanhamento pelas equipes responsáveis e pela liderança.
+
+* **A Solução:** Estruturação de um fluxo automatizado executado semanalmente para consulta das bases de acompanhamento, identificação de demandas pendentes e programações em atraso, consolidação das informações e distribuição automática de relatórios aos responsáveis. O processo permite acompanhamento contínuo das pendências e maior visibilidade sobre potenciais riscos operacionais.
+
+* **Resultado Obtido:** Aproximadamente 40 projetos monitorados semanalmente, redução do acompanhamento manual de pendências, aumento da visibilidade para equipes técnicas e lideranças, além de maior agilidade na identificação de riscos e desvios de cronograma.
+
+* **Ferramentas/Stack:** Power Automate, Excel Online, SharePoint, Outlook e HTML para geração dinâmica de relatórios.
+
+---

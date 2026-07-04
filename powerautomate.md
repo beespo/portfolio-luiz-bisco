@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Meus Projetos de Destaque - Power Automate ⚙️
+classes: narrow
 ---
 
 ## [🏠 Página Inicial](index.md)

@@ -1,7 +1,5 @@
 # Luiz Bisco
-Business Intelligence • Automação • Analytics • Inteligência Artificial
-### Transformo processos manuais em operações orientadas por dados, automação e IA.
-
+## Business Intelligence • Automação • Analytics • Inteligência Artificial
 
 ## Sobre Mim
 

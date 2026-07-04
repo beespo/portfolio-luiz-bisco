@@ -41,7 +41,7 @@
 <a id="automacao3"></a>
 ## Projeto 3: Alerta Semanal de Demandas em Avaliação e Programações Atrasadas
 
-![Alerta Semanal de Atrasos](assets/images/fluxo-atraso-fabricacoes.png)
+![Alerta Semanal de Atrasos](assets/images/fluxo-atraso-fabricaçoes.png)
 
 * **O Problema:** Demandas em avaliação e programações atrasadas precisavam ser identificadas manualmente em diferentes controles operacionais. A ausência de monitoramento centralizado aumentava o risco de atrasos passarem despercebidos, dificultando o acompanhamento pelas equipes responsáveis e pela liderança.
 

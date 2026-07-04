@@ -17,13 +17,13 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 * [Principais Especialidades](#principais-especialidades)
 
 ### Projetos
-- [Aviso de Confidencialidade e Anonimização](#Confidencialidade-e-anonimização-dos-dados)
+- [Aviso de Confidencialidade e Anonimização](#Aviso---Confidencialidade-e-anonimização-dos-dados)
 - [Power BI](powerbi.md)
 - [Power Automate & IA Aplicada](powerautomate.md)
 
 ### Outros
 * [Resultados Obtidos](#resultados-obtidos)
-* [Ferramentas mais utilizadas](#stack-principal)
+* [Ferramentas mais utilizadas](#stack-principal---Ferramentas-mais-utilizadas)
 * [Sobre Mim](#sobre-mim)
 * [Contato](#contato)
 
@@ -123,7 +123,7 @@ Ao longo dos projetos desenvolvidos, as soluções implementadas contribuíram p
 
 ---
 
-# Stack Principal
+# Stack Principal - Ferramentas mais utilizadas
 
 ## Dados & Analytics
 

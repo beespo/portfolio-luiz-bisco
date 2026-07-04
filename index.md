@@ -11,6 +11,7 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 
 # Índice
 
+### Informações iniciais
 * [Para que serve este site?](#para-que-serve-este-site)
 * [O Problema que eu resolvo](#o-problema-que-eu-resolvo)
 * [Principais Especialidades](#principais-especialidades)
@@ -21,7 +22,6 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 - [Power Automate & IA Aplicada](powerautomate.md)
 
 ### Outros
-
 * [Resultados Obtidos](#resultados-obtidos)
 * [Ferramentas mais utilizadas](#stack-principal)
 * [Sobre Mim](#sobre-mim)
@@ -29,7 +29,7 @@ Atuo conectando áreas de negócio, dados e tecnologia para transformar processo
 
 ---
 
-## Confidencialidade e Anonimização dos Dados
+## Aviso - Confidencialidade e Anonimização dos Dados
 
 Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.
 

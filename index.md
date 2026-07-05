@@ -1,4 +1,10 @@
-##  
+---
+layout: home
+author_profile: true
+---
+
+![Banner do Portfólio](/assets/images/banner-portfolio.png)
+
 ## [Power BI](powerbi.md) | [Power Automate & IA Aplicada](powerautomate.md) | [Confidencialidade e Anonimização](#aviso)
 
 ## Sobre Mim 

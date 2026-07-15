@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projetos de Power Automate e IA aplicada desenvolvidos por Luiz Bisco para automação de processos corporativos.">
+  <title>Luiz Bisco | Power Automate e IA Aplicada</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Scoped Refinements for Power Automate Page */
+    .impact-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .impact-list li {
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+    .impact-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    .impact-list li:last-child {
+      margin-bottom: 0;
+    }
+    .tag-cloud {
+      margin-top: 8px;
+    }
+
+    /* visual hierarchy inside project cards */
+    .page-automation .case-content .case-label {
+      color: var(--muted) !important;
+      font-size: 0.72rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.08em !important;
+      margin-bottom: 14px !important; /* improve spacing between label and title */
+    }
+    .page-automation .case-content h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.1rem) !important; /* project titles should be more prominent */
+      font-weight: 800 !important;
+      margin-bottom: 24px !important;
+      letter-spacing: -0.01em !important;
+      line-height: 1.2 !important;
+    }
+
+    /* spacing and layout rhythm for Problem and Solution */
+    .page-automation .case-details {
+      gap: 28px !important;
+    }
+    .page-automation .case-details > div {
+      padding: 24px !important;
+    }
+    .page-automation .case-details p {
+      line-height: 1.65 !important;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body class="page-automation">
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Luiz Bisco">Luiz Bisco</a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-panel">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="powerbi.html" class="nav-link" data-i18n="nav.powerbi">Power BI</a>
+        <a href="powerautomate.html" class="nav-link active" data-i18n="nav.automation">Power Automate & IA</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contato</a>
+        <div class="language-switcher" aria-label="Seletor de idioma">
+          <button class="lang-btn active" type="button" data-lang="pt">PT</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero section">
+      <div class="container narrow">
+        <p class="section-kicker" data-i18n="page.kicker">Power Automate & IA Aplicada</p>
+        <h1 data-i18n="page.title">Projetos de Automação</h1>
+        <p data-i18n="page.subtitle">Fluxos corporativos desenvolvidos para padronizar processos, reduzir atividades manuais, ampliar a rastreabilidade e aumentar a visibilidade operacional.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="portfolio-stack">
+          <article class="case-card" id="automacao1">
+            <div class="case-media">
+              <img src="assets/images/fluxo-postergacoes-de-projetos.png" data-img-base="assets/images/fluxo-postergacoes-de-projetos" data-img-ext=".png" alt="Fluxo de Registro de Postergações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project1.image">Fluxo de Postergações</span>
+            </div>
+            <div class="case-content">
+              <p class="case-label">Power Automate</p>
+              <h2 data-i18n="project1.title">Governança de Postergações</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project1.problem">Devido ao alto volume de projetos conduzidos simultaneamente, postergações ocorriam sem um processo padronizado de registro dos motivos. A ausência desse histórico dificultava a identificação das causas das alterações de prazo, a análise de tendências e a construção de planos de ação preventivos.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.solution">Solução</h3>
+                  <p data-i18n="project1.solution">Estruturação de um fluxo automatizado para registro de postergações de projetos. Sempre que uma alteração de prazo é identificada, o gestor responsável recebe automaticamente um formulário para preenchimento da justificativa, garantindo registro padronizado em base centralizada.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power Automate</span>
+                    <span>Microsoft Lists</span>
+                    <span>Microsoft Teams</span>
+                    <span>Power BI</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.impact">Impacto</h3>
+                  <ul class="impact-list">
+                    <li><span data-i18n="project1.impact1.val">~24 horas/mês</span> <span data-i18n="project1.impact1.txt">reduzidas de atividades manuais</span></li>
+                    <li><span data-i18n="project1.impact2.val">8 colaboradores</span> <span data-i18n="project1.impact2.txt">suportados na equipe</span></li>
+                    <li><span data-i18n="project1.impact3.val">Rastreabilidade</span> <span data-i18n="project1.impact3.txt">e padronização das informações</span></li>
+                    <li><span data-i18n="project1.impact4.val">Acompanhamento</span> <span data-i18n="project1.impact4.txt">gerencial com dados consolidados</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card" id="automacao2">
+            <div class="case-media">
+              <img src="assets/images/fluxo-geracao-id-projetos.png" data-img-base="assets/images/fluxo-geracao-id-projetos" data-img-ext=".png" alt="Fluxo de Geração Automática de ID de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project2.image">Geração de ID</span>
+            </div>
+            <div class="case-content">
+              <p class="case-label">Power Automate</p>
+              <h2 data-i18n="project2.title">Padronização de Identificação de Projetos</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project2.problem">Projetos distintos podem ser executados para um mesmo produto e, devido à alta complexidade dos processos regulatórios, diversas bases e controles são utilizados de forma descentralizada. A ausência de uma identificação padronizada dificultava a integração de dados entre sistemas, gerando riscos de inconsistência e falhas de governança no controle de portfólio.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.solution">Solução</h3>
+                  <p data-i18n="project2.solution">Implementação de uma solução de governança com fluxo automatizado para geração de códigos identificadores únicos de projetos. Sempre que um novo projeto é registrado, o system gera automaticamente um identificador padronizado baseado em regras corporativas de nomenclatura, garantindo integridade e escalabilidade.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power Automate</span>
+                    <span>Microsoft Lists</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.impact">Impacto</h3>
+                  <ul class="impact-list">
+                    <li><span data-i18n="project2.impact1.val">~60 projetos</span> <span data-i18n="project2.impact1.txt">codificados automaticamente por mês</span></li>
+                    <li><span data-i18n="project2.impact2.val">Atividades manuais</span> <span data-i18n="project2.impact2.txt">de digitação eliminadas</span></li>
+                    <li><span data-i18n="project2.impact3.val">Mitigação</span> <span data-i18n="project2.impact3.txt">de riscos de duplicidade e inconsistência</span></li>
+                    <li><span data-i18n="project2.impact4.val">Integração</span> <span data-i18n="project2.impact4.txt">e governança unificada de portfólio</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card" id="automacao3">
+            <div class="case-media">
+              <img src="assets/images/fluxo-atraso-fabricacoes.png" data-img-base="assets/images/fluxo-atraso-fabricacoes" data-img-ext=".png" alt="Fluxo de Alerta Semanal de Demandas e Programações Atrasadas" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project3.image">Alertas Semanais</span>
+            </div>
+            <div class="case-content">
+              <p class="case-label">Power Automate + HTML</p>
+              <h2 data-i18n="project3.title">Alerta Automatizado de Demandas</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project3.problem">Demandas em avaliação e programações em atraso exigiam varredura manual em múltiplos controles descentralizados. A falta de um monitoramento sistemático limitava a visibilidade operacional da liderança e aumentava o risco de desvios críticos de cronograma passarem despercebidos.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.solution">Solução</h3>
+                  <p data-i18n="project3.solution">Criação de um sistema de monitoramento automatizado com execução semanal. O fluxo realiza a varredura nas bases de dados, consolida demandas pendentes e cronogramas em atraso, e distribui relatórios executivos personalizados por e-mail para as equipes e gestores responsáveis, centralizando a governança de prazos.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power Automate</span>
+                    <span>Excel Online</span>
+                    <span>SharePoint</span>
+                    <span>Outlook</span>
+                    <span>HTML</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.impact">Impacto</h3>
+                  <ul class="impact-list">
+                    <li><span data-i18n="project3.impact1.val">~40 projetos</span> <span data-i18n="project3.impact1.txt">monitorados semanalmente de forma automática</span></li>
+                    <li><span data-i18n="project3.impact2.val">Acompanhamento manual</span> <span data-i18n="project3.impact2.txt">de pendências reduzido</span></li>
+                    <li><span data-i18n="project3.impact3.val">Visibilidade</span> <span data-i18n="project3.impact3.txt">ampliada para equipes técnicas e liderança</span></li>
+                    <li><span data-i18n="project3.impact4.val">Identificação</span> <span data-i18n="project3.impact4.txt">ágil de desvios e riscos de cronograma</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 data-i18n="contact.title">Contato</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://www.linkedin.com/in/luizrvbisco/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="mailto:luizrvbisco@gmail.com">luizrvbisco@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Luiz Bisco</span>
+      <span data-i18n="footer.text">Projetos de automação corporativa e IA aplicada.</span>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      pt: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & IA",
+        "nav.contact": "Contato",
+        "page.kicker": "Power Automate & IA Aplicada",
+        "page.title": "Projetos de Automação",
+        "page.subtitle": "Fluxos corporativos desenvolvidos para padronizar processos, reduzir atividades manuais, ampliar a rastreabilidade e aumentar a visibilidade operacional.",
+        "label.problem": "Problema de negócio",
+        "label.solution": "Solução",
+        "label.tech": "Tecnologias usadas",
+        "label.impact": "Impacto",
+        "project1.image": "Fluxo de Postergações",
+        "project1.title": "Governança de Postergações",
+        "project1.problem": "Devido ao alto volume de projetos conduzidos simultaneamente, postergações ocorriam sem um processo padronizado de registro dos motivos. A ausência desse histórico dificultava a identificação das causas das alterações de prazo, a análise de tendências e a construção de planos de ação preventivos.",
+        "project1.solution": "Estruturação de um fluxo automatizado para registro de postergações de projetos. Sempre que uma alteração de prazo é identificada, o gestor responsável recebe automaticamente um formulário para preenchimento da justificativa, garantindo registro padronizado em base centralizada.",
+        "project1.impact1.val": "~24 horas/mês",
+        "project1.impact1.txt": "reduzidas de atividades manuais",
+        "project1.impact2.val": "8 colaboradores",
+        "project1.impact2.txt": "suportados na equipe",
+        "project1.impact3.val": "Rastreabilidade",
+        "project1.impact3.txt": "e padronização das informações",
+        "project1.impact4.val": "Acompanhamento",
+        "project1.impact4.txt": "gerencial com dados consolidados",
+        "project2.image": "Geração de ID",
+        "project2.title": "Padronização de Identificação de Projetos",
+        "project2.problem": "Projetos distintos podem ser executados para um mesmo produto e, devido à alta complexity dos processos regulatórios, diversas bases e controles são utilizados de forma descentralizada. A ausência de uma identificação padronizada dificultava a integração de dados entre sistemas, gerando riscos de inconsistência e falhas de governança no controle de portfólio.",
+        "project2.solution": "Implementação de uma solução de governança com fluxo automatizado para geração de códigos identificadores únicos de projetos. Sempre que um novo projeto é registrado, o system gera automaticamente um identificador padronizado baseado em regras corporativas de nomenclatura, garantindo integridade e escalabilidade.",
+        "project2.impact1.val": "~60 projetos",
+        "project2.impact1.txt": "codificados automaticamente por mês",
+        "project2.impact2.val": "Atividades manuais",
+        "project2.impact2.txt": "de digitação eliminadas",
+        "project2.impact3.val": "Mitigação",
+        "project2.impact3.txt": "de riscos de duplicidade e inconsistência",
+        "project2.impact4.val": "Integração",
+        "project2.impact4.txt": "e governança unificada de portfólio",
+        "project3.image": "Alertas Semanais",
+        "project3.title": "Alerta Automatizado de Demandas",
+        "project3.problem": "Demandas em avaliação e programações em atraso exigiam varredura manual em múltiplos controles descentralizados. A falta de um monitoramento sistemático limitava a visibilidade operacional da liderança e aumentava o risco de desvios críticos de cronograma passarem despercebidos.",
+        "project3.solution": "Criação de um sistema de monitoramento automatizado com execução semanal. O fluxo realiza a varredura nas bases de dados, consolida demandas pendentes e cronogramas em atraso, e distribui relatórios executivos personalizados por e-mail para as equipes e gestores responsáveis, centralizando a governança de prazos.",
+        "project3.impact1.val": "~40 projetos",
+        "project3.impact1.txt": "monitorados semanalmente de forma automática",
+        "project3.impact2.val": "Acompanhamento manual",
+        "project3.impact2.txt": "de pendências reduzido",
+        "project3.impact3.val": "Visibilidade",
+        "project3.impact3.txt": "ampliada para equipes técnicas e liderança",
+        "project3.impact4.val": "Identificação",
+        "project3.impact4.txt": "ágil de desvios e riscos de cronograma",
+        "contact.title": "Contato",
+        "footer.text": "Projetos de automação corporativa e IA aplicada."
+      },
+      en: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & AI",
+        "nav.contact": "Contact",
+        "page.kicker": "Power Automate & Applied AI",
+        "page.title": "Automation Projects",
+        "page.subtitle": "Corporate workflows designed to standardize processes, reduce manual activities, improve traceability and increase operational visibility.",
+        "label.problem": "Business problem",
+        "label.solution": "Solution",
+        "label.tech": "Technologies used",
+        "label.impact": "Impact",
+        "project1.image": "Postponements Workflow",
+        "project1.title": "Postponement Governance",
+        "project1.problem": "Due to the high volume of projects conducted simultaneously, postponements occurred without a standardized process for recording reasons. The absence of this history made it difficult to identify deadline-change causes, analyze trends, and build preventive action plans.",
+        "project1.solution": "Structuring an automated workflow for project postponement registration. Whenever a deadline change is identified, the responsible manager automatically receives a form to provide the justification, ensuring standardized records in a centralized database.",
+        "project1.impact1.val": "~24 hours/month",
+        "project1.impact1.txt": "reduced from manual activities",
+        "project1.impact2.val": "8 collaborators",
+        "project1.impact2.txt": "supported on the team",
+        "project1.impact3.val": "Traceability",
+        "project1.impact3.txt": "and standardization of information",
+        "project1.impact4.val": "Management follow-up",
+        "project1.impact4.txt": "with consolidated data",
+        "project2.image": "ID Generation",
+        "project2.title": "Project Identification Standardization",
+        "project2.problem": "Different projects may be executed for the same product and, due to high regulatory complexity, multiple databases and controls are used in a decentralized manner. The absence of standardized identification hindered data integration across systems, raising risks of inconsistencies and governance gaps in portfolio control.",
+        "project2.solution": "Implementation of a governance solution with an automated workflow to generate unique project identifiers. Whenever a new project is registered, the system automatically generates a standardized code based on corporate naming rules, ensuring data integrity and scalability.",
+        "project2.impact1.val": "~60 projects",
+        "project2.impact1.txt": "automatically coded per month",
+        "project2.impact2.val": "Manual activities",
+        "project2.impact2.txt": "eliminated from coding",
+        "project2.impact3.val": "Mitigated",
+        "project2.impact3.txt": "duplication and inconsistency risks",
+        "project2.impact4.val": "Integration",
+        "project2.impact4.txt": "and unified portfolio governance",
+        "project3.image": "Weekly Alerts",
+        "project3.title": "Automated Demand Alerts",
+        "project3.problem": "Demands under review and delayed schedules required manual scanning across multiple decentralized controls. The lack of systematic monitoring limited operational visibility for leadership and increased the risk of critical schedule deviations going unnoticed.",
+        "project3.solution": "Creation of an automated weekly monitoring system. The workflow scans tracking databases, consolidates pending demands and delayed schedules, and automatically distributes personalized executive reports to responsible teams and managers, centralizing timeline governance.",
+        "project3.impact1.val": "~40 projects",
+        "project3.impact1.txt": "monitored weekly automatically",
+        "project3.impact2.val": "Manual tracking",
+        "project3.impact2.txt": "of pending items reduced",
+        "project3.impact3.val": "Expanded visibility",
+        "project3.impact3.txt": "for technical teams and leadership",
+        "project3.impact4.val": "Swift identification",
+        "project3.impact4.txt": "of timeline risks and deviations",
+        "contact.title": "Contact",
+        "footer.text": "Corporate automation and applied AI projects."
+      }
+    };
+
+    const navToggle = document.querySelector(".nav-toggle");
+    const navPanel = document.querySelector(".nav-panel");
+    navToggle.addEventListener("click", () => {
+      const expanded = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!expanded));
+      navPanel.classList.toggle("open");
+    });
+
+    function setLanguage(lang) {
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+      document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.dataset.i18n;
+        if (translations[lang][key]) element.textContent = translations[lang][key];
+      });
+
+      // Instantly switch image versions (PT vs EN) based on base attributes
+      document.querySelectorAll("img[data-img-base]").forEach((img) => {
+        const base = img.dataset.imgBase;
+        const ext = img.dataset.imgExt || ".png";
+        img.style.display = "";
+        img.parentElement.classList.remove("is-empty");
+        img.src = lang === "en" ? `${base}-en${ext}` : `${base}${ext}`;
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((button) => {
+        button.classList.toggle("active", button.dataset.lang === lang);
+      });
+      localStorage.setItem("portfolio-language", lang);
+    }
+
+    document.querySelectorAll(".lang-btn").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    setLanguage(localStorage.getItem("portfolio-language") || "pt");
+  </script>
+</body>
+</html>

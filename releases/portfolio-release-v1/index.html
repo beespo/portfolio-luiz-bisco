@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Luiz Bisco em Business Intelligence, automação de processos, Power Platform e IA aplicada.">
+  <title>Luiz Bisco | Business Intelligence, Automação e IA Aplicada</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Scoped Refinements for V3 Home Page */
+
+    /* Section Headings Font Size Increase (+1 to +2 typography scale levels) */
+    .section-heading h2 {
+      font-size: clamp(2.2rem, 4.5vw, 3.6rem) !important;
+    }
+
+    /* Hero Panel Size Reduction and Spacing Improvements (Tags Removed) */
+    .hero-panel {
+      min-height: auto !important; /* Dynamic sizing to avoid empty space */
+      padding: 24px !important;
+    }
+    .hero-panel strong {
+      font-size: 1.35rem !important; /* Reduced from 1.7rem (~20% reduction) */
+      line-height: 1.25 !important;
+    }
+
+    /* About Grid Structure (3 equal-width columns) */
+    .about-grid {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    /* Featured Projects 2-Column Desktop Grid with Larger Screenshots */
+    @media (min-width: 981px) {
+      .project-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 32px !important;
+      }
+      .project-media {
+        min-height: 280px !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Luiz Bisco">Luiz Bisco</a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-panel">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">Home</a>
+        <a href="powerbi.html" class="nav-link" data-i18n="nav.powerbi">Power BI</a>
+        <a href="powerautomate.html" class="nav-link" data-i18n="nav.automation">Power Automate & IA</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contato</a>
+        <div class="language-switcher" aria-label="Seletor de idioma">
+          <button class="lang-btn active" type="button" data-lang="pt">PT</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="section-kicker" data-i18n="hero.kicker">Portfólio Executivo</p>
+          <h1>Luiz Bisco</h1>
+          <div class="hero-lines" aria-label="Áreas de atuação">
+            <span data-i18n="hero.line1">Automação de Processos</span>
+            <span data-i18n="hero.line2">Business Intelligence (BI)</span>
+            <span data-i18n="hero.line3">Power Platform</span>
+            <span data-i18n="hero.line4">Inteligência Artificial Aplicada</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn primary" href="#about" data-i18n="hero.about">Sobre Mim</a>
+            <a class="btn secondary" href="powerbi.html" data-i18n="hero.powerbi">Projetos Power BI</a>
+            <a class="btn secondary" href="powerautomate.html" data-i18n="hero.automation">Projetos de Automação</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/luizrvbisco/" target="_blank" rel="noopener" data-i18n="hero.linkedin">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Indicadores de posicionamento profissional">
+          <div>
+            <span class="panel-label" data-i18n="hero.panelLabel">Foco profissional</span>
+            <strong data-i18n="hero.panelTitle">Operações orientadas por dados, automação e inteligência de negócio.</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Sobre Mim (About Me) -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="about.kicker">Sobre Mim</p>
+          <h2 data-i18n="about.title">Experiência corporativa conectando negócio, dados e tecnologia</h2>
+        </div>
+        <div class="about-grid">
+          <!-- Card 1: Core Competencies -->
+          <article class="info-card">
+            <h3 data-i18n="about.skillsTitle">Principais Competências</h3>
+            <div class="tag-cloud">
+              <span data-i18n="about.skill1">Business Intelligence</span>
+              <span data-i18n="about.skill2">Automação operacional</span>
+              <span data-i18n="about.skill3">Integração e automatização de processos</span>
+              <span data-i18n="about.skill4">Eficiência operacional</span>
+              <span data-i18n="about.skill5">IA aplicada a rotinas corporativas</span>
+            </div>
+          </article>
+          <!-- Card 2: Technologies -->
+          <article class="info-card">
+            <h3 data-i18n="about.techTitle">Tecnologias</h3>
+            <div class="tag-cloud">
+              <span>Power BI</span>
+              <span>Power Query</span>
+              <span>Excel</span>
+              <span>Power Automate</span>
+              <span>Microsoft Lists</span>
+              <span>SharePoint</span>
+              <span>Microsoft Teams</span>
+              <span>AI Builder</span>
+              <span>LLMs</span>
+            </div>
+          </article>
+          <!-- Card 3: Currently Learning -->
+          <article class="info-card">
+            <h3 data-i18n="about.learningTitle">Atualmente Aprendendo</h3>
+            <div class="tag-cloud compact">
+              <span>SQL</span>
+              <span>Python</span>
+              <span data-i18n="about.learningData">Engenharia de Dados</span>
+              <span>GitHub</span>
+              <span data-i18n="about.learningAI">IA Aplicada</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. O Que Eu Faço (What I Do) -->
+    <section class="section muted-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="services.kicker">O que eu faço</p>
+          <h2 data-i18n="services.title">Soluções para operações corporativas mais estruturadas</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="service-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18" />
+                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" />
+              </svg>
+            </div>
+            <h3 data-i18n="services.biTitle">Business Intelligence</h3>
+            <p data-i18n="services.biText">Dashboards executivos, KPIs, modelagem dimensional e análise de dados para acompanhamento gerencial.</p>
+          </article>
+          <article class="service-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="6" height="6" rx="1" />
+                <rect x="15" y="15" width="6" height="6" rx="1" />
+                <rect x="15" y="3" width="6" height="6" rx="1" />
+                <path d="M9 6h6" />
+                <path d="M18 9v6" />
+              </svg>
+            </div>
+            <h3 data-i18n="services.autoTitle">Automação de Processos</h3>
+            <p data-i18n="services.autoText">Fluxos com Power Automate, SharePoint, Forms, Teams e integrações corporativas para reduzir atividades manuais.</p>
+          </article>
+          <article class="service-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9.813 15.904L9 21L8.188 15.904L3 15L8.188 14.096L9 9L9.813 14.096L15 15L9.813 15.904Z" />
+                <path d="M19.071 4.929L18.5 8L17.929 4.929L15 4.357L17.929 3.786L18.5 0.714L19.071 3.786L22 4.357L19.071 4.929Z" />
+              </svg>
+            </div>
+            <h3 data-i18n="services.aiTitle">Inteligência Artificial Aplicada</h3>
+            <p data-i18n="services.aiText">Automação inteligente, produtividade e apoio à tomada de decisão em rotinas corporativas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Problemas Que Resolvo (Problems I Solve) -->
+    <section class="section">
+      <div class="container">
+        <div class="split-panel">
+          <div>
+            <p class="section-kicker" data-i18n="problems.kicker">Problemas que resolvo</p>
+            <h2 data-i18n="problems.title">Transformação operacional com rastreabilidade e dados estruturados</h2>
+          </div>
+          <div class="problem-columns">
+            <article class="info-card">
+              <h3 data-i18n="problems.leftTitle">Problemas</h3>
+              <ul class="check-list negative">
+                <li data-i18n="problems.p1">Processos manuais</li>
+                <li data-i18n="problems.p2">Retrabalho</li>
+                <li data-i18n="problems.p3">Falta de rastreabilidade</li>
+                <li data-i18n="problems.p4">Informações descentralizadas</li>
+              </ul>
+            </article>
+            <article class="info-card">
+              <h3 data-i18n="problems.rightTitle">Abordagem</h3>
+              <ul class="check-list positive">
+                <li data-i18n="problems.a1">Automação</li>
+                <li data-i18n="problems.a2">Dados estruturados</li>
+                <li data-i18n="problems.a3">Dashboards</li>
+                <li data-i18n="problems.a4">Suporte à decisão</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Resultados Obtidos (Results) -->
+    <section class="section muted-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="results.kicker">Resultados</p>
+          <h2 data-i18n="results.title">Indicadores de Impacto</h2>
+        </div>
+        <div class="kpi-grid">
+          <article class="kpi-card">
+            <strong>40+</strong>
+            <span data-i18n="results.kpi1">Projetos monitorados semanalmente</span>
+          </article>
+          <article class="kpi-card">
+            <strong>10+</strong>
+            <span data-i18n="results.kpi2">Automações implementadas</span>
+          </article>
+          <article class="kpi-card">
+            <strong>15+</strong>
+            <span data-i18n="results.kpi3">Relatórios de Power BI otimizados</span>
+          </article>
+          <article class="kpi-card">
+            <strong>30+</strong>
+            <span data-i18n="results.kpi4">Horas mensais economizadas para uma equipe de 8 integrantes</span>
+          </article>
+        </div>
+        <div class="results-note">
+          <p data-i18n="results.note">As soluções implementadas contribuíram para redução de atividades manuais, economia de horas mensais, aumento da rastreabilidade, padronização de fluxos corporativos, consolidação de informações em fonte única e melhoria da tomada de decisão.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Confidencialidade (Disclaimers) -->
+    <section class="section confidentiality" id="aviso">
+      <div class="container">
+        <article class="notice-card">
+          <p class="section-kicker" data-i18n="notice.kicker">Confidencialidade</p>
+          <h2 data-i18n="notice.title">Dados anonimizados e contexto preservado</h2>
+          <p data-i18n="notice.text1">Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.</p>
+          <p data-i18n="notice.text2">As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. Projetos em Destaque (Featured Projects Showcase) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="featured.kicker">Projetos em destaque</p>
+          <h2 data-i18n="featured.title">Exemplos de soluções desenvolvidas em contexto corporativo</h2>
+        </div>
+        <div class="project-grid">
+          <!-- Project 1: Executive Projects Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-n3-anonimizado.png" data-img-base="assets/images/dashboard-n3-anonimizado" data-img-ext=".png" alt="Dashboard Executivo de Projetos Prioritários" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi1">Dashboard Executivo</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi1Title">Dashboard Executivo de Projetos</h3>
+              <p data-i18n="featured.bi1Text">Consolidação de projetos prioritários em uma fonte confiável para acompanhamento gerencial.</p>
+              <a class="text-link" href="powerbi.html#painel1" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Project Requests Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-solicitacao-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-solicitacao-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Solicitações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi2">Solicitações</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi2Title">Dashboard de Solicitações de Projetos</h3>
+              <p data-i18n="featured.bi2Text">Acompanhamento operacional e gerencial do ciclo de vida das solicitações.</p>
+              <a class="text-link" href="powerbi.html#painel2" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Project Postponements Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-postergacoes-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-postergacoes-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Postergações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi3">Postergações</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi3Title">Dashboard de Postergações de Projetos</h3>
+              <p data-i18n="featured.bi3Text">Visibilidade sobre alterações de prazo, responsáveis, motivos e status das entregas.</p>
+              <a class="text-link" href="powerbi.html#painel2" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 4: Capacity & Productivity Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-carteira-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-carteira-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Capacidade e Produtividade da Equipe" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi4">Capacidade da Equipe</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi4Title">Dashboard de Capacidade e Produtividade</h3>
+              <p data-i18n="featured.bi4Text">Acompanhamento da capacidade operacional da equipe, distribuição das demandas e status dos projetos.</p>
+              <a class="text-link" href="powerbi.html#painel3" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 5: Schedules & Regularizations Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-cronogramas-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-cronogramas-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Cronogramas e Regularizações" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi5">Cronogramas</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi5Title">Dashboard de Cronogramas e Regularizações</h3>
+              <p data-i18n="featured.bi5Text">Controle das entregas, identificação de riscos relacionados a prazos e acompanhamento de desvios.</p>
+              <a class="text-link" href="powerbi.html#painel4" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 6: Annual Portfolio Management Dashboard -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/dashboard-evolucao-projetos-por-ano-anonimizado.png" data-img-base="assets/images/dashboard-evolucao-projetos-por-ano-anonimizado" data-img-ext=".png" alt="Dashboard de Gestão de Portfólio e Entregas Anuais" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageBi6">Portfólio Anual</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.bi6Title">Dashboard de Gestão de Portfólio Anual</h3>
+              <p data-i18n="featured.bi6Text">Visão executiva da evolução das entregas ao longo do ano, produtividade das equipes e andamento dos projetos.</p>
+              <a class="text-link" href="powerbi.html#painel5" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 7: Project Postponement Registration -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/fluxo-postergacoes-de-projetos.png" data-img-base="assets/images/fluxo-postergacoes-de-projetos" data-img-ext=".png" alt="Fluxo de Registro de Postergações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageAuto1">Fluxo de Postergações</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.auto1Title">Registro de Postergações de Projetos</h3>
+              <p data-i18n="featured.auto1Text">Fluxo automatizado para registro de postergações, notificando gestores para justificativa em base centralizada.</p>
+              <a class="text-link" href="powerautomate.html#automacao1" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 8: Automatic Project ID Generation -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/fluxo-geracao-id-projetos.png" data-img-base="assets/images/fluxo-geracao-id-projetos" data-img-ext=".png" alt="Fluxo de Geração Automática de ID de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageAuto2">Automação</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.auto2Title">Geração Automática de ID de Projetos</h3>
+              <p data-i18n="featured.auto2Text">Criação automática de códigos padronizados para integração e rastreabilidade.</p>
+              <a class="text-link" href="powerautomate.html#automacao2" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+
+          <!-- Project 9: Weekly Demand & Delay Alerts -->
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/fluxo-atraso-fabricacoes.png" data-img-base="assets/images/fluxo-atraso-fabricacoes" data-img-ext=".png" alt="Fluxo de Alerta Semanal de Demandas e Programações Atrasadas" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="featured.imageAuto3">Alertas Semanais</span>
+            </div>
+            <div class="project-content">
+              <h3 data-i18n="featured.auto3Title">Alerta Semanal de Demandas e Atrasos</h3>
+              <p data-i18n="featured.auto3Text">Monitoramento semanal automatizado e distribuição de relatórios de demandas pendentes e programações em atraso.</p>
+              <a class="text-link" href="powerautomate.html#automacao3" data-i18n="featured.button">Ver projeto</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Desenvolvimento Profissional (Professional Development) -->
+    <section class="section" id="development">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="dev.kicker">Crescimento Contínuo</p>
+          <h2 data-i18n="dev.title">Desenvolvimento Profissional</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="info-card">
+            <h3 data-i18n="dev.sqlTitle">SQL</h3>
+            <p data-i18n="dev.sqlText">Estruturação de consultas, modelagem relacional e manipulação de bases de dados para análise e integração.</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="dev.pythonTitle">Python</h3>
+            <p data-i18n="dev.pythonText">Desenvolvimento de scripts para tratamento de dados, automação de tarefas e conexões via APIs.</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="dev.dataEngTitle">Engenharia de Dados</h3>
+            <p data-i18n="dev.dataEngText">Construção de pipelines de dados, processos ETL/ELT, modelagem dimensional e estruturação de bases para analytics.</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="dev.gitTitle">Git & Controle de Versão</h3>
+            <p data-i18n="dev.gitText">Versionamento de projetos, colaboração em equipe, documentação de repositórios e boas práticas com GitHub.</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="dev.aiTitle">Inteligência Artificial Aplicada</h3>
+            <p data-i18n="dev.aiText">Estudo e aplicação prática de Large Language Models (LLMs), engenharia de prompts e automação cognitiva em processos.</p>
+          </article>
+          <article class="info-card">
+            <h3 data-i18n="dev.solutionsTitle">Desenvolvimento de Soluções de Dados</h3>
+            <p data-i18n="dev.solutionsText">Concepção de soluções ponta a ponta: do mapeamento de necessidades e estruturação de dados à entrega de valor operacional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Contato (Contact) -->
+    <!-- TODO: Remove the marketing sentence "Vamos conversar sobre dados, automação e impacto operacional." / "Let's talk about data, automation, and operational impact." from powerbi.html and powerautomate.html in a later dedicated task. -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 data-i18n="contact.title">Contato</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://www.linkedin.com/in/luizrvbisco/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="mailto:luizrvbisco@gmail.com">luizrvbisco@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Luiz Bisco</span>
+      <span data-i18n="footer.text">Business Intelligence, Automação de Processos, Power Platform e IA Aplicada.</span>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      pt: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & IA",
+        "nav.contact": "Contato",
+        "hero.kicker": "Portfólio Executivo",
+        "hero.line1": "Automação de Processos",
+        "hero.line2": "Business Intelligence (BI)",
+        "hero.line3": "Power Platform",
+        "hero.line4": "Inteligência Artificial Aplicada",
+        "hero.about": "Sobre Mim",
+        "hero.powerbi": "Projetos Power BI",
+        "hero.automation": "Projetos de Automação",
+        "hero.linkedin": "LinkedIn",
+        "hero.panelLabel": "Foco profissional",
+        "hero.panelTitle": "Operações orientadas por dados, automação e inteligência de negócio.",
+        "about.kicker": "Sobre Mim",
+        "about.title": "Experiência corporativa conectando negócio, dados e tecnologia",
+        "about.experienceTitle": "Experiência Profissional",
+        "about.experienceText1": "Profissional com experiência em gestão de projetos, automação de processos e Business Intelligence no setor farmacêutico.",
+        "about.experienceText2": "Atuo conectando áreas de negócio, dados e tecnologia para transformar processos manuais em fluxos estruturados, automatizados e orientados por indicadores, apoiando a tomada de decisão e a eficiência operacional.",
+        "about.skillsTitle": "Principais Competências",
+        "about.skill1": "Business Intelligence",
+        "about.skill2": "Automação operacional",
+        "about.skill3": "Integração e automatização de processos",
+        "about.skill4": "Eficiência operacional",
+        "about.skill5": "IA aplicada a rotinas corporativas",
+        "about.techTitle": "Tecnologias",
+        "about.learningTitle": "Atualmente Aprendendo",
+        "about.learningData": "Engenharia de Dados",
+        "about.learningAI": "IA Aplicada",
+        "services.kicker": "O que eu faço",
+        "services.title": "Soluções para operações corporativas mais estruturadas",
+        "services.biTitle": "Business Intelligence",
+        "services.biText": "Dashboards executivos, KPIs, modelagem dimensional e análise de dados para acompanhamento gerencial.",
+        "services.autoTitle": "Automação de Processos",
+        "services.autoText": "Fluxos com Power Automate, SharePoint, Forms, Teams e integrações corporativas para reduzir atividades manuais.",
+        "services.aiTitle": "Inteligência Artificial Aplicada",
+        "services.aiText": "Automação inteligente, produtividade e apoio à tomada de decisão em rotinas corporativas.",
+        "problems.kicker": "Problemas que resolvo",
+        "problems.title": "Transformação operacional com rastreabilidade e dados estruturados",
+        "problems.leftTitle": "Problemas",
+        "problems.p1": "Processos manuais",
+        "problems.p2": "Retrabalho",
+        "problems.p3": "Falta de rastreabilidade",
+        "problems.p4": "Informações descentralizadas",
+        "problems.rightTitle": "Solução",
+        "problems.a1": "Automação",
+        "problems.a2": "Dados estruturados",
+        "problems.a3": "Dashboards",
+        "problems.a4": "Suporte à decisão",
+        "results.kicker": "Resultados",
+        "results.title": "Indicadores de Impacto",
+        "results.kpi1": "Projetos monitorados semanalmente",
+        "results.kpi2": "Automações implementadas",
+        "results.kpi3": "Relatórios de Power BI otimizados",
+        "results.kpi4": "Horas mensais economizadas para uma equipe de 8 integrantes",
+        "results.note": "As soluções implementadas contribuíram para redução de atividades manuais, economia de horas mensais, aumento da rastreabilidade, padronização de fluxos corporativos, consolidação de informações em fonte única e melhoria da tomada de decisão.",
+        "featured.kicker": "Projetos em destaque",
+        "featured.title": "Exemplos de soluções desenvolvidas em contexto corporativo",
+        "featured.imageBi1": "Dashboard Executivo",
+        "featured.imageBi2": "Solicitações",
+        "featured.imageBi3": "Postergações",
+        "featured.imageBi4": "Capacidade da Equipe",
+        "featured.imageBi5": "Cronogramas",
+        "featured.imageBi6": "Portfólio Anual",
+        "featured.imageAuto1": "Fluxo de Postergações",
+        "featured.imageAuto2": "Automação",
+        "featured.imageAuto3": "Alertas Semanais",
+        "featured.bi1Title": "Dashboard Executivo de Projetos",
+        "featured.bi1Text": "Consolidação de projetos prioritários em uma fonte confiável para acompanhamento gerencial.",
+        "featured.bi2Title": "Dashboard de Solicitações de Projetos",
+        "featured.bi2Text": "Acompanhamento operacional e gerencial do ciclo de vida das solicitações.",
+        "featured.bi3Title": "Dashboard de Postergações de Projetos",
+        "featured.bi3Text": "Visibilidade sobre alterações de prazo, responsáveis, motivos e status das entregas.",
+        "featured.bi4Title": "Dashboard de Capacidade e Produtividade",
+        "featured.bi4Text": "Acompanhamento da capacidade operacional da equipe, distribuição das demandas e status dos projetos.",
+        "featured.bi5Title": "Dashboard de Cronogramas e Regularizações",
+        "featured.bi5Text": "Controle das entregas, identificação de riscos relacionados a prazos e acompanhamento de desvios.",
+        "featured.bi6Title": "Dashboard de Gestão de Portfólio Anual",
+        "featured.bi6Text": "Visão executiva da evolução das entregas ao longo do ano, produtividade das equipes e andamento dos projetos.",
+        "featured.auto1Title": "Registro de Postergações de Projetos",
+        "featured.auto1Text": "Fluxo automatizado para registro de postergações, notificando gestores para justificativa em base centralizada.",
+        "featured.auto2Title": "Geração Automática de ID de Projetos",
+        "featured.auto2Text": "Criação automática de códigos padronizados para integração e rastreabilidade.",
+        "featured.auto3Title": "Alerta Semanal de Demandas e Atrasos",
+        "featured.auto3Text": "Monitoramento semanal automatizado e distribuição de relatórios de demandas pendentes e programações em atraso.",
+        "featured.button": "Ver projeto",
+        "notice.kicker": "Confidencialidade",
+        "notice.title": "Dados anonimizados e contexto preservado",
+        "notice.text1": "Todos os dashboards, fluxos e exemplos apresentados neste portfólio utilizam dados anonimizados ou mascarados.",
+        "notice.text2": "As soluções demonstradas foram desenvolvidas em ambientes corporativos reais, porém nenhuma informação confidencial, estratégica, regulatória ou comercial é exposta.",
+        "contact.kicker": "Contato",
+        "contact.title": "Contato",
+        "footer.text": "Business Intelligence, Automação de Processos, Power Platform e IA Aplicada.",
+        "dev.kicker": "Desenvolvimento Profissional",
+        "dev.title": "Evolução e Capacitação Técnica Contínua",
+        "dev.sqlTitle": "SQL",
+        "dev.sqlText": "Estruturação de consultas, modelagem relacional e manipulação de bases de dados para análise e integração.",
+        "dev.pythonTitle": "Python",
+        "dev.pythonText": "Desenvolvimento de scripts para tratamento de dados, automação de tarefas e conexões via APIs.",
+        "dev.dataEngTitle": "Engenharia de Dados",
+        "dev.dataEngText": "Construção de pipelines de dados, processos ETL/ELT, modelagem dimensional e estruturação de bases para analytics.",
+        "dev.gitTitle": "Git & Versionamento",
+        "dev.gitText": "Versionamento de projetos, colaboração em equipe, documentação de repositórios e boas práticas com GitHub.",
+        "dev.aiTitle": "Inteligência Artificial Aplicada",
+        "dev.aiText": "Estudo e aplicação prática de Large Language Models (LLMs), engenharia de prompts e automação cognitiva em processos.",
+        "dev.solutionsTitle": "Desenvolvimento de Soluções de Dados",
+        "dev.solutionsText": "Concepção de soluções ponta a ponta: do mapeamento de necessidades e estruturação de dados à entrega de valor operacional."
+      },
+      en: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & AI",
+        "nav.contact": "Contact",
+        "hero.kicker": "Executive Portfolio",
+        "hero.line1": "Process Automation",
+        "hero.line2": "Business Intelligence (BI)",
+        "hero.line3": "Power Platform",
+        "hero.line4": "Applied Artificial Intelligence",
+        "hero.about": "About Me",
+        "hero.powerbi": "Power BI Projects",
+        "hero.automation": "Automation Projects",
+        "hero.linkedin": "LinkedIn",
+        "hero.panelLabel": "Professional focus",
+        "hero.panelTitle": "Operations guided by data, automation, and business intelligence.",
+        "about.kicker": "About Me",
+        "about.title": "Corporate experience connecting business, data, and technology",
+        "about.experienceTitle": "Professional Experience",
+        "about.experienceText1": "Professional with experience in project management, process automation, and Business Intelligence in the pharmaceutical sector.",
+        "about.experienceText2": "I connect business areas, data, and technology to transform manual processes into structured, automated, indicator-driven workflows that support decision-making and operational efficiency.",
+        "about.skillsTitle": "Main Skills",
+        "about.skill1": "Business Intelligence",
+        "about.skill2": "Operational automation",
+        "about.skill3": "Process integration and automation",
+        "about.skill4": "Operational efficiency",
+        "about.skill5": "AI applied to corporate routines",
+        "about.techTitle": "Technologies",
+        "about.learningTitle": "Currently Learning",
+        "about.learningData": "Data Engineering",
+        "about.learningAI": "Applied AI",
+        "services.kicker": "What I Do",
+        "services.title": "Solutions for more structured corporate operations",
+        "services.biTitle": "Business Intelligence",
+        "services.biText": "Executive dashboards, KPIs, dimensional modeling, and data analysis for management follow-up.",
+        "services.autoTitle": "Process Automation",
+        "services.autoText": "Workflows with Power Automate, SharePoint, Forms, Teams, and corporate integrations to reduce manual activities.",
+        "services.aiTitle": "Applied Artificial Intelligence",
+        "services.aiText": "Intelligent automation, productivity, and decision support for corporate routines.",
+        "problems.kicker": "Problems I Solve",
+        "problems.title": "Operational transformation with traceability and structured data",
+        "problems.leftTitle": "Problems",
+        "problems.p1": "Manual processes",
+        "problems.p2": "Rework",
+        "problems.p3": "Lack of traceability",
+        "problems.p4": "Decentralized information",
+        "problems.rightTitle": "Solution",
+        "problems.a1": "Automation",
+        "problems.a2": "Structured data",
+        "problems.a3": "Dashboards",
+        "problems.a4": "Decision support",
+        "results.kicker": "Results",
+        "results.title": "Impact Indicators",
+        "results.kpi1": "Projects monitored weekly",
+        "results.kpi2": "Automations implemented",
+        "results.kpi3": "Power BI dashboards developed and optimized",
+        "results.kpi4": "Monthly hours saved for a team of 8 members",
+        "results.note": "The implemented solutions contributed to reducing manual activities, saving monthly work hours, increasing traceability, standardizing corporate workflows, consolidating information into a single source, and improving decision-making.",
+        "featured.kicker": "Featured Projects",
+        "featured.title": "Examples of solutions developed in a corporate context",
+        "featured.imageBi1": "Executive Dashboard",
+        "featured.imageBi2": "Requests",
+        "featured.imageBi3": "Postponements",
+        "featured.imageBi4": "Team Capacity",
+        "featured.imageBi5": "Schedules",
+        "featured.imageBi6": "Annual Portfolio",
+        "featured.imageAuto1": "Postponements Workflow",
+        "featured.imageAuto2": "Automation",
+        "featured.imageAuto3": "Weekly Alerts",
+        "featured.bi1Title": "Executive Projects Dashboard",
+        "featured.bi1Text": "Consolidation of priority projects into a single source of truth for management tracking.",
+        "featured.bi2Title": "Project Requests Dashboard",
+        "featured.bi2Text": "Operational and management tracking of the project request lifecycle.",
+        "featured.bi3Title": "Project Postponements Dashboard",
+        "featured.bi3Text": "Visibility into deadline changes, owners, reasons, and delivery status.",
+        "featured.bi4Title": "Capacity & Productivity Dashboard",
+        "featured.bi4Text": "Tracking team operational capacity, demand distribution, and project status.",
+        "featured.bi5Title": "Schedules & Regularizations Dashboard",
+        "featured.bi5Text": "Delivery control, identification of deadline risks, and deviation monitoring.",
+        "featured.bi6Title": "Annual Portfolio Management Dashboard",
+        "featured.bi6Text": "Executive view of delivery evolution throughout the year, team productivity, and project progress.",
+        "featured.auto1Title": "Project Postponement Registration",
+        "featured.auto1Text": "Automated workflow for project postponements, requesting justifications stored in a central list.",
+        "featured.auto2Title": "Automatic Project ID Generation",
+        "featured.auto2Text": "Automatic creation of standardized codes for systems integration and traceability.",
+        "featured.auto3Title": "Weekly Demand & Delay Alerts",
+        "featured.auto3Text": "Weekly automated queries and report distribution for pending demands and delayed schedules.",
+        "featured.button": "View project",
+        "notice.kicker": "Confidentiality",
+        "notice.title": "Anonymized data and preserved context",
+        "notice.text1": "All dashboards, workflows, and examples presented in this portfolio use anonymized or masked data.",
+        "notice.text2": "The solutions were developed in real corporate environments, but no confidential, strategic, regulatory, or commercial information is exposed.",
+        "contact.kicker": "Contact",
+        "contact.title": "Contact",
+        "footer.text": "Business Intelligence, Process Automation, Power Platform, and Applied AI.",
+        "dev.kicker": "Professional Development",
+        "dev.title": "Continuous Technical Evolution & Growth",
+        "dev.sqlTitle": "SQL",
+        "dev.sqlText": "Query optimization, relational modeling, and database manipulation for analytics and systems integration.",
+        "dev.pythonTitle": "Python",
+        "dev.pythonText": "Scripting for data manipulation, automated tasks, and integrating third-party APIs.",
+        "dev.dataEngTitle": "Data Engineering",
+        "dev.dataEngText": "Building data pipelines, ETL/ELT processes, dimensional modeling, and database structures for analytics.",
+        "dev.gitTitle": "Git & Version Control",
+        "dev.gitText": "Version control, collaborative workflows, repository documentation, and best practices with GitHub.",
+        "dev.aiTitle": "Applied Artificial Intelligence",
+        "dev.aiText": "Practical application of Large Language Models (LLMs), prompt engineering, and intelligent automation in routines.",
+        "dev.solutionsTitle": "Data Solutions Development",
+        "dev.solutionsText": "End-to-end design: mapping business needs, structuring raw data, and delivering operational dashboards."
+      }
+    };
+
+    const navToggle = document.querySelector(".nav-toggle");
+    const navPanel = document.querySelector(".nav-panel");
+    navToggle.addEventListener("click", () => {
+      const expanded = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!expanded));
+      navPanel.classList.toggle("open");
+    });
+
+    function setLanguage(lang) {
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+      document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.dataset.i18n;
+        if (translations[lang][key]) element.textContent = translations[lang][key];
+      });
+
+      // Instantly switch image versions (PT vs EN) based on base attributes
+      document.querySelectorAll("img[data-img-base]").forEach((img) => {
+        const base = img.dataset.imgBase;
+        const ext = img.dataset.imgExt || ".png";
+        img.style.display = "";
+        img.parentElement.classList.remove("is-empty");
+        img.src = lang === "en" ? `${base}-en${ext}` : `${base}${ext}`;
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((button) => {
+        button.classList.toggle("active", button.dataset.lang === lang);
+      });
+      localStorage.setItem("portfolio-language", lang);
+    }
+
+    document.querySelectorAll(".lang-btn").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    setLanguage(localStorage.getItem("portfolio-language") || "pt");
+  </script>
+</body>
+</html>

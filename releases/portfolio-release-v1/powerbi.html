@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projetos de Power BI desenvolvidos por Luiz Bisco para acompanhamento executivo, gestão de portfólio e suporte à decisão.">
+  <title>Luiz Bisco | Projetos Power BI</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Scoped Refinements for Power BI Page */
+    .section-heading h2 {
+      font-size: clamp(2.2rem, 4.5vw, 3.6rem) !important;
+    }
+    .case-badges {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .badge-category {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(30, 41, 59, 0.6);
+      color: #cbd5e1;
+      border: 1px solid var(--line);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    @media (min-width: 761px) {
+      .page-powerbi .case-details > div:first-child {
+        grid-column: span 2;
+      }
+    }
+  </style>
+</head>
+<body class="page-powerbi">
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Luiz Bisco">Luiz Bisco</a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-panel">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="powerbi.html" class="nav-link active" data-i18n="nav.powerbi">Power BI</a>
+        <a href="powerautomate.html" class="nav-link" data-i18n="nav.automation">Power Automate & IA</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contato</a>
+        <div class="language-switcher" aria-label="Seletor de idioma">
+          <button class="lang-btn active" type="button" data-lang="pt">PT</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="page-hero section">
+      <div class="container narrow">
+        <h1 data-i18n="page.title">Business Intelligence</h1>
+        <p data-i18n="page.subtitle">Dashboards executivos, painéis operacionais, modelagem dimensional e indicadores para acompanhamento gerencial e tomada de decisão.</p>
+      </div>
+    </section>
+
+    <!-- 2. Portfolio Showcase Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2 data-i18n="portfolio.heading">Showcase</h2>
+        </div>
+
+        <div class="portfolio-stack">
+          <!-- Project 1: Dashboard Executivo de Projetos Prioritários -->
+          <article class="case-card" id="painel1">
+            <div class="case-media">
+              <img src="assets/images/dashboard-n3-anonimizado.png" data-img-base="assets/images/dashboard-n3-anonimizado" data-img-ext=".png" alt="Dashboard Executivo de Projetos Prioritários" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project1.image">Dashboard Executivo</span>
+            </div>
+            <div class="case-content">
+              <div class="case-badges">
+                <span class="badge-category" data-i18n="project1.category">Executivo</span>
+              </div>
+              <h2 data-i18n="project1.title">Dashboard Executivo de Projetos Prioritários</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project1.problem">Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power BI</span>
+                    <span>Power Query</span>
+                    <span>SharePoint Lists</span>
+                    <span>Excel</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.results">Resultados</h3>
+                  <p data-i18n="project1.results">Fonte única para acompanhamento executivo com monitoramento centralizado dos indicadores estratégicos, facilitando a priorização e controle operacional dos projetos prioritários.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Painéis de Solicitações e Postergações -->
+          <article class="case-card" id="painel2">
+            <div class="case-media multi-image">
+              <img src="assets/images/dashboard-solicitacao-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-solicitacao-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Solicitações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <img src="assets/images/dashboard-postergacoes-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-postergacoes-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Postergações de Projetos" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project2.image">Solicitações e Postergações</span>
+            </div>
+            <div class="case-content">
+              <div class="case-badges">
+                <span class="badge-category" data-i18n="project2.category">Operacional</span>
+              </div>
+              <h2 data-i18n="project2.title">Painéis de Solicitações e Postergações de Projetos</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project2.problem">Ausência de rastreabilidade, padronização e visibilidade sobre o ciclo de vida dos projetos, dificultando o acompanhamento de solicitações, postergações, responsáveis e status das entregas.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power BI</span>
+                    <span>Power Query</span>
+                    <span>Power Automate</span>
+                    <span>Microsoft Lists</span>
+                    <span>Microsoft Forms</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.results">Resultados</h3>
+                  <p data-i18n="project2.results">Rastreabilidade completa do ciclo de vida dos projetos com controle operacional estruturado e monitoramento centralizado de solicitações e postergações.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Dashboard de Capacidade e Produtividade -->
+          <article class="case-card" id="painel3">
+            <div class="case-media">
+              <img src="assets/images/dashboard-carteira-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-carteira-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Capacidade e Produtividade da Equipe" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project3.image">Capacidade da Equipe</span>
+            </div>
+            <div class="case-content">
+              <div class="case-badges">
+                <span class="badge-category" data-i18n="project3.category">Capacidade</span>
+              </div>
+              <h2 data-i18n="project3.title">Dashboard de Capacidade e Produtividade da Equipe</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project3.problem">Falta de visibilidade consolidada sobre o andamento das programações de projetos solicitados, dificultando a distribuição proporcional de projetos entre a equipe, considerando escopo e dificuldade.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power BI</span>
+                    <span>Power Query</span>
+                    <span>SharePoint</span>
+                    <span>Microsoft Lists</span>
+                    <span>Excel</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.results">Resultados</h3>
+                  <p data-i18n="project3.results">Gestão de capacidade otimizada, planejamento estruturado de entregas futuras e acompanhamento preciso da evolução das atividades da equipe.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Dashboard de Cronogramas e Regularizações -->
+          <article class="case-card" id="painel4">
+            <div class="case-media">
+              <img src="assets/images/dashboard-cronogramas-de-projetos-anonimizado.png" data-img-base="assets/images/dashboard-cronogramas-de-projetos-anonimizado" data-img-ext=".png" alt="Dashboard de Cronogramas e Regularizações" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project4.image">Cronogramas</span>
+            </div>
+            <div class="case-content">
+              <div class="case-badges">
+                <span class="badge-category" data-i18n="project4.category">Planejamento</span>
+              </div>
+              <h2 data-i18n="project4.title">Dashboard de Cronogramas e Regularizações</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project4.problem">Necessidade de acompanhamento centralizado dos cronogramas, prazos e entregas de projetos, diminuindo o risco de desvios e atrasos por parte das áreas técnicas impactadas.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power BI</span>
+                    <span>Power Query</span>
+                    <span>Excel</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.results">Resultados</h3>
+                  <p data-i18n="project4.results">Controle operacional das entregas com rastreabilidade de prazos e planejamento de desvios e riscos de atraso.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Dashboard de Gestão de Portfólio e Entregas Anuais -->
+          <article class="case-card" id="painel5">
+            <div class="case-media">
+              <img src="assets/images/dashboard-evolucao-projetos-por-ano-anonimizado.png" data-img-base="assets/images/dashboard-evolucao-projetos-por-ano-anonimizado" data-img-ext=".png" alt="Dashboard de Gestão de Portfólio e Entregas Anuais" onerror="this.parentElement.classList.add('is-empty'); this.style.display='none';">
+              <span data-i18n="project5.image">Portfólio Anual</span>
+            </div>
+            <div class="case-content">
+              <div class="case-badges">
+                <span class="badge-category" data-i18n="project5.category">Projeção</span>
+              </div>
+              <h2 data-i18n="project5.title">Dashboard de Gestão de Portfólio e Entregas Anuais</h2>
+              <div class="case-details">
+                <div>
+                  <h3 data-i18n="label.problem">Problema de negócio</h3>
+                  <p data-i18n="project5.problem">Falta de visibilidade estratégica de longo prazo sobre o cronograma de entregas futuras, dificultando o planejamento plurianual e a projeção de capacidade das equipes.</p>
+                </div>
+                <div>
+                  <h3 data-i18n="label.tech">Tecnologias usadas</h3>
+                  <div class="tag-cloud compact">
+                    <span>Power BI</span>
+                    <span>Power Query</span>
+                    <span>SharePoint</span>
+                    <span>Excel</span>
+                  </div>
+                </div>
+                <div>
+                  <h3 data-i18n="label.results">Resultados</h3>
+                  <p data-i18n="project5.results">Monitoramento centralizado com projeção de longo prazo e visibilidade estratégica para planejamento de entregas futuras, fornecendo uma perspectiva plurianual consolidada.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 data-i18n="contact.title">Contato</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://www.linkedin.com/in/luizrvbisco/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="mailto:luizrvbisco@gmail.com">luizrvbisco@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Luiz Bisco</span>
+      <span data-i18n="footer.text">Business Intelligence, suporte à decisão orientado por dados e visibilidade operacional.</span>
+    </div>
+  </footer>
+
+  <script>
+    const translations = {
+      pt: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & IA",
+        "nav.contact": "Contato",
+        "page.kicker": "Business Intelligence",
+        "page.title": "Business Intelligence",
+        "page.subtitle": "Dashboards executivos, painéis operacionais, modelagem dimensional e indicadores para acompanhamento gerencial e tomada de decisão.",
+        "label.problem": "Problema de negócio",
+        "label.tech": "Tecnologias usadas",
+        "label.results": "Resultados",
+        "portfolio.heading": "Showcase - Dashboards",
+        "project1.image": "Dashboard Executivo",
+        "project1.title": "Dashboard Executivo de Projetos Prioritários",
+        "project1.category": "Executivo",
+        "project1.problem": "Necessidade de consolidar informações de projetos prioritários em uma única fonte confiável para acompanhamento gerencial e suporte à tomada de decisão.",
+        "project1.results": "Fonte única para acompanhamento executivo com monitoramento centralizado dos indicadores estratégicos, facilitando a priorização e controle operacional dos projetos prioritários.",
+        "project2.image": "Solicitações e Postergações",
+        "project2.title": "Painéis de Solicitações e Postergações de Projetos",
+        "project2.category": "Operacional",
+        "project2.problem": "Ausência de rastreabilidade, padronização e visibilidade sobre o ciclo de vida dos projetos, dificultando o acompanhamento de solicitações, postergações, responsáveis e status das entregas.",
+        "project2.results": "Rastreabilidade completa do ciclo de vida dos projetos com controle operacional estruturado e monitoramento centralizado de solicitações e postergações.",
+        "project3.image": "Capacidade da Equipe",
+        "project3.title": "Dashboard de Capacidade e Produtividade da Equipe",
+        "project3.category": "Capacidade",
+        "project3.problem": "Falta de visibilidade consolidada sobre o andamento das programações de projetos solicitados, dificultando a distribuição proporcional de projetos entre a equipe, considerando escopo e dificuldade.",
+        "project3.results": "Gestão de capacidade otimizada, planejamento estruturado de entregas futuras e acompanhamento preciso da evolução das atividades da equipe.",
+        "project4.image": "Cronogramas",
+        "project4.title": "Dashboard de Cronogramas e Regularizações",
+        "project4.category": "Planejamento",
+        "project4.problem": "Necessidade de acompanhamento centralizado dos cronogramas, prazos e entregas de projetos, diminuindo o risco de desvios e atrasos por parte das áreas técnicas impactadas.",
+        "project4.results": "Controle operacional das entregas com rastreabilidade de prazos e planejamento de desvios e riscos de atraso.",
+        "project5.image": "Portfólio Anual",
+        "project5.title": "Dashboard de Gestão de Portfólio e Entregas Anuais",
+        "project5.category": "Projeção",
+        "project5.problem": "Falta de visibilidade estratégica de longo prazo sobre o cronograma de entregas futuras, dificultando o planejamento plurianual e a projeção de capacidade das equipes.",
+        "project5.results": "Monitoramento centralizado com projeção de longo prazo e visibilidade estratégica para planejamento de entregas futuras, fornecendo uma perspectiva plurianual consolidada.",
+        "contact.title": "Contato",
+        "footer.text": "Business Intelligence, suporte à decisão orientado por dados e visibilidade operacional."
+      },
+      en: {
+        "nav.home": "Home",
+        "nav.powerbi": "Power BI",
+        "nav.automation": "Power Automate & AI",
+        "nav.contact": "Contact",
+        "page.kicker": "Business Intelligence",
+        "page.title": "Power BI Projects",
+        "page.subtitle": "Executive dashboards, operational panels, dimensional modeling, and indicators for management follow-up and decision-making.",
+        "label.problem": "Business problem",
+        "label.tech": "Technologies used",
+        "label.results": "Results",
+        "portfolio.heading": "SHOWCASE",
+        "project1.image": "Executive Dashboard",
+        "project1.title": "Executive Priority Projects Dashboard",
+        "project1.category": "Executive",
+        "project1.problem": "Need to consolidate priority project information into one reliable source for management follow-up and decision support.",
+        "project1.results": "Single source for executive follow-up with centralized monitoring of strategic indicators, facilitating project prioritization and operational control.",
+        "project2.image": "Requests and Postponements",
+        "project2.title": "Project Requests and Postponements Dashboards",
+        "project2.category": "Operational",
+        "project2.problem": "Lack of traceability, standardization, and visibility over the project lifecycle, making it difficult to track requests, postponements, owners, and delivery status.",
+        "project2.results": "End-to-end project lifecycle traceability with structured operational control and centralized monitoring of requests and postponements.",
+        "project3.image": "Team Capacity",
+        "project3.title": "Team Capacity and Productivity Dashboard",
+        "project3.category": "Capacity",
+        "project3.problem": "Lack of consolidated visibility into requested project schedules, making proportional distribution across the team difficult when considering scope and complexity.",
+        "project3.results": "Optimized capacity management, structured planning for future deliveries, and precise tracking of team activity progress.",
+        "project4.image": "Schedules",
+        "project4.title": "Schedules and Regularizations Dashboard",
+        "project4.category": "Planning",
+        "project4.problem": "Need for centralized monitoring of project schedules, deadlines, and deliveries, reducing the risk of deviations and delays by impacted technical areas.",
+        "project4.results": "Operational control of deliverables with timeline traceability and proactive planning for deviations and delay risks.",
+        "project5.image": "Annual Portfolio",
+        "project5.title": "Portfolio Management and Annual Deliveries Dashboard",
+        "project5.category": "Projection",
+        "project5.problem": "Lack of long-term strategic visibility over future delivery schedules, hindering multi-year planning and projection of team capacity.",
+        "project5.results": "Centralized monitoring with long-term projection and strategic visibility for planning future deliveries, providing a consolidated multi-year outlook.",
+        "contact.title": "Contact",
+        "footer.text": "Business Intelligence, data-driven decision support, and operational visibility."
+      }
+    };
+
+    const navToggle = document.querySelector(".nav-toggle");
+    const navPanel = document.querySelector(".nav-panel");
+    navToggle.addEventListener("click", () => {
+      const expanded = navToggle.getAttribute("aria-expanded") === "true";
+      navToggle.setAttribute("aria-expanded", String(!expanded));
+      navPanel.classList.toggle("open");
+    });
+
+    function setLanguage(lang) {
+      document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+      document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.dataset.i18n;
+        if (translations[lang][key]) element.textContent = translations[lang][key];
+      });
+
+      // Instantly switch image versions (PT vs EN) based on base attributes
+      document.querySelectorAll("img[data-img-base]").forEach((img) => {
+        const base = img.dataset.imgBase;
+        const ext = img.dataset.imgExt || ".png";
+        img.style.display = "";
+        img.parentElement.classList.remove("is-empty");
+        img.src = lang === "en" ? `${base}-en${ext}` : `${base}${ext}`;
+      });
+
+      document.querySelectorAll(".lang-btn").forEach((button) => {
+        button.classList.toggle("active", button.dataset.lang === lang);
+      });
+      localStorage.setItem("portfolio-language", lang);
+    }
+
+    document.querySelectorAll(".lang-btn").forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.lang));
+    });
+
+    setLanguage(localStorage.getItem("portfolio-language") || "pt");
+  </script>
+</body>
+</html>

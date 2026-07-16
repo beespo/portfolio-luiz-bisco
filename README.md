@@ -4,7 +4,7 @@ Business Intelligence, Process Automation and Applied AI portfolio.
 
 ## Website
 
-[Portfólio/](https://beespo.github.io/portfolio-luiz-bisco/index.html)
+[Portfolio](https://beespo.github.io/portfolio-luiz-bisco/index.html)
 
 ## Technologies
 

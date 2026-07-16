@@ -1,2 +1,21 @@
-# portfolio-luiz-bisco
-Este repositório tem a intenção de servir como uma exibição do meu portfólio e dos trabalhos que eu faço.
+# Luiz Bisco Portfolio
+
+Business Intelligence, Process Automation and Applied AI portfolio.
+
+## Website
+
+[Portfólio/](https://beespo.github.io/portfolio-luiz-bisco/index.html)
+
+## Technologies
+
+- Power BI
+- Power Automate
+- Power Platform
+- SQL
+
+## Highlights
+
+- Executive dashboards
+- Process automation
+- Operational governance
+- Portfolio management
